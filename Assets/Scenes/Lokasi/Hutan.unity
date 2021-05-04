@@ -3050,7 +3050,7 @@ GameObject:
   - component: {fileID: 593596194}
   - component: {fileID: 593596193}
   m_Layer: 0
-  m_Name: Sapi
+  m_Name: MONYET
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3163,7 +3163,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5d16a889f67db3d4ca55a39a4e001bb8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a56e53be9016b3942bcb9e773271ebfc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4539,8 +4539,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.6}
-  m_SizeDelta: {x: 235.7254, y: 42.5761}
+  m_AnchoredPosition: {x: 0.02, y: 0.596}
+  m_SizeDelta: {x: 274.1725, y: 44.2512}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905378804
 MonoBehaviour:
@@ -4560,7 +4560,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AYAM
+  m_text: BERUANG
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4629,7 +4629,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 905378804}
-    characterCount: 4
+    characterCount: 7
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -7002,7 +7002,7 @@ GameObject:
   - component: {fileID: 1449542721}
   - component: {fileID: 1449542720}
   m_Layer: 0
-  m_Name: Babi
+  m_Name: BABI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7115,7 +7115,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6323181a7dde2c0489429a0babbc7c37, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a56e53be9016b3942bcb9e773271ebfc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7526,7 +7526,7 @@ GameObject:
   - component: {fileID: 1589013420}
   - component: {fileID: 1589013419}
   m_Layer: 0
-  m_Name: Ayam
+  m_Name: BERUANG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8521,7 +8521,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAPI
+  m_text: MONYET
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8590,7 +8590,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1716801803}
-    characterCount: 4
+    characterCount: 6
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
