@@ -12,8 +12,8 @@ public class HewanScriptable : ScriptableObject
     public string deskripsiHewan;
     public string ciriHewan;
     public string makananHewan;
-    public Sprite gambarHewan;
     public bool statusHewan;
+    public Sprite gambarHewan;
 
     public void SetStatusHewan(bool value)
     {
