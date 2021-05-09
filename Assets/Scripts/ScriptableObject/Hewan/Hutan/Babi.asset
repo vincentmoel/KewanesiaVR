@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 013e5febc524e42499fe1d0d0783c7a0, type: 3}
-  m_Name: Monyet
+  m_Name: Babi
   m_EditorClassIdentifier: 
-  namaHewan: Monyet
-  deskripsiHewan: Ini Monyet
-  ciriHewan: Seperti kamu
-  makananHewan: Pisang
-  statusHewan: 0
-  gambarHewan: {fileID: 21300000, guid: f4e2e829b1a2cc94fb554517cf08d2c0, type: 3}
+  namaHewan: Babi
+  deskripsiHewan: Ini Babi
+  ciriHewan: Babi Berwarna Pink
+  makananHewan: Semua
+  statusHewan: 1
+  gambarHewan: {fileID: 21300000, guid: e89c4eac05552e54981a0f67e3299e20, type: 3}

@@ -1841,7 +1841,7 @@ PrefabInstance:
     - target: {fileID: 5032008206429110584, guid: aec73746f805fbd40909fcfef3e0029e,
         type: 3}
       propertyPath: m_Name
-      value: Hewan
+      value: Beruang
       objectReference: {fileID: 0}
     - target: {fileID: 5032008206429110586, guid: aec73746f805fbd40909fcfef3e0029e,
         type: 3}

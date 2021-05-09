@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 013e5febc524e42499fe1d0d0783c7a0, type: 3}
-  m_Name: Beruang
+  m_Name: Ikan
   m_EditorClassIdentifier: 
-  namaHewan: Beruang
-  deskripsiHewan: Ini Beruang
-  ciriHewan: Beruang itu besar
-  makananHewan: MANUSIA WKWKWK
+  namaHewan: Ikan
+  deskripsiHewan: 
+  ciriHewan: 
+  makananHewan: 
   statusHewan: 0
-  gambarHewan: {fileID: 21300000, guid: 462baba4538fa37409b0736d91802bb7, type: 3}
+  gambarHewan: {fileID: 0}

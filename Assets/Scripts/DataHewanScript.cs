@@ -27,6 +27,7 @@ public class DataHewanScript : MonoBehaviour
 
     private void Awake()
     {
+        so_hewan.Awake();
         SetData();
 
         if (so_hewan.statusHewan)
@@ -55,13 +56,10 @@ public class DataHewanScript : MonoBehaviour
     /// Set status button menjadi false semua dari awal
     /// Button deskripsi true, yang lain false
     /// </summary>
-
-
     private void CheckStatusButton()
     {
         for (int i = 0; i < listStatusActive.Count; i++)
         {
-            listButton[i].interactable = listStatusActive[i];
             //set color button
             if (listStatusActive[i])
                 listButton[i].image.color = Color.white;
@@ -84,6 +82,7 @@ public class DataHewanScript : MonoBehaviour
             txtNamaHewan.text = so_hewan.namaHewan;
             // status hewan terbuka
             so_hewan.statusHewan = true;
+            so_hewan.ActivedHewan(1);
         }
     }
     #endregion
