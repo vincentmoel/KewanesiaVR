@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lokasi/Hutan.unity
     guid: 61c08bb8a032b6545ae29af713ec63d9
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 9ee0a339788363c4b8b669c136536c88
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
