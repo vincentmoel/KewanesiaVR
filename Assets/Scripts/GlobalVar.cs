@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class GlobalVar
 {
-
-
     #region Audio Volume Save
     public static void SetAudioVolume(float value)
     {
