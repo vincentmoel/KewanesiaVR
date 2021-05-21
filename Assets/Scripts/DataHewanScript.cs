@@ -75,6 +75,7 @@ public class DataHewanScript : MonoBehaviour
         if (indx < 3)
         {
             listStatusActive[indx + 1] = true;
+            listButton[indx + 1].interactable = true;
             CheckStatusButton();
         }
         else if (indx == 3)
