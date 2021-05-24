@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     public float toggleAngle = 30.0f;
     public bool move;
     private CharacterController cc;
+    private int count;
 
     // Untuk mengambil object Character Controller
     void Start() {
