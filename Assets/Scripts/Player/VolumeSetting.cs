@@ -17,4 +17,16 @@ public class VolumeSetting : MonoBehaviour
         GlobalVar.SetAudioVolume(vol);
         AudioListener.volume = GlobalVar.GetAudioVolume();
     }
+
+    public void UpVolume()
+    {
+        slider.value += 0.1f;
+        SetVolume(slider.value);
+    }
+
+    public void DownVolume()
+    {
+        slider.value -= 0.1f;
+        SetVolume(slider.value);
+    }
 }
