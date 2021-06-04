@@ -16,5 +16,4 @@ MonoBehaviour:
   listHewan:
   - {fileID: 11400000, guid: 1291461a7ffbd224f8c6efb66d2167df, type: 2}
   - {fileID: 11400000, guid: 1291461a7ffbd224f8c6efb66d2167df, type: 2}
-  - {fileID: 11400000, guid: 1291461a7ffbd224f8c6efb66d2167df, type: 2}
   statusMap: 0

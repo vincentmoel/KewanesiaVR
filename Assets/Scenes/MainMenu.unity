@@ -214,7 +214,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1282
+  m_Name: pb_Mesh-73104
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -469,7 +469,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1542
+  m_Name: pb_Mesh-73364
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2002,11 +2002,11 @@ GameObject:
   - component: {fileID: 383389136}
   - component: {fileID: 383389139}
   - component: {fileID: 383389138}
-  - component: {fileID: 383389137}
   - component: {fileID: 383389142}
   - component: {fileID: 383389141}
+  - component: {fileID: 383389137}
   m_Layer: 0
-  m_Name: Land
+  m_Name: objHutan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2038,8 +2038,8 @@ Transform:
   m_Father: {fileID: 112354407}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &383389137
-CapsuleCollider:
+--- !u!135 &383389137
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2048,10 +2048,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Radius: 0.84596074
+  m_Center: {x: 0.0345127, y: -0.37447286, z: 0.0805217}
 --- !u!23 &383389138
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2993,7 +2992,7 @@ GameObject:
   - component: {fileID: 792521849}
   - component: {fileID: 792521852}
   m_Layer: 0
-  m_Name: Diorama
+  m_Name: objLaut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3173,6 +3172,27 @@ MonoBehaviour:
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
+--- !u!1 &817784038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6654914301044783219, guid: 0483252ed9557154396107fa4a623dec,
+    type: 3}
+  m_PrefabInstance: {fileID: 6654914300653196546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &817784043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817784038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66acbd077eed5c741b172e4857505f7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeScene: {fileID: 862293967}
+  playerLookTarget: {fileID: 1010491775}
+  speed: 5
 --- !u!1 &833540238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3358,6 +3378,8 @@ MonoBehaviour:
   animPintu: {fileID: 1804163379}
   animPlayer: {fileID: 704671389}
   GvrEditorEmulator: {fileID: 2047069441}
+  playerTargetToLook: {fileID: 0}
+  startAnim: 0
 --- !u!114 &862293968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3784,6 +3806,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992347368}
   m_CullTransparentMesh: 0
+--- !u!1 &1010491774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010491775}
+  m_Layer: 0
+  m_Name: lookAtPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1010491775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010491774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.07, y: 0.9300001, z: 9.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1048345764 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b44928fa469eada408310976ad79fd3d,
@@ -4103,6 +4155,8 @@ MonoBehaviour:
   animPintu: {fileID: 0}
   animPlayer: {fileID: 0}
   GvrEditorEmulator: {fileID: 0}
+  playerTargetToLook: {fileID: 0}
+  startAnim: 0
 --- !u!95 &1068173694
 Animator:
   serializedVersion: 3
@@ -4557,7 +4611,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1546
+  m_Name: pb_Mesh-73368
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5784,7 +5838,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1544
+  m_Name: pb_Mesh-73366
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6124,7 +6178,7 @@ GameObject:
   - component: {fileID: 1801673190}
   - component: {fileID: 1801673189}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: objGunung
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6181,7 +6235,7 @@ SphereCollider:
   m_GameObject: {fileID: 1801673187}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -6784,7 +6838,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1540
+  m_Name: pb_Mesh-73362
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

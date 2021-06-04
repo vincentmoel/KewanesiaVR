@@ -14,6 +14,11 @@ public class MinigameMonyet : MonoBehaviour
     
 
     public TextMeshProUGUI textCounter;
+
+    public GameObject ObjPlaceAnimal; //parent dari list list animal
+
+    public DataHewanScript dataHewanMonyet;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,11 +41,6 @@ public class MinigameMonyet : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Monyet")) {
@@ -65,6 +65,9 @@ public class MinigameMonyet : MonoBehaviour
         yield return new WaitForSeconds(5);
         monyet.SetActive(false);
         animalCounter.SetActive(false);
+        dataHewanMonyet.OpenAnimal();
+        finishSoundSource.Stop();
+        ObjPlaceAnimal.SetActive(transform);
     }
     
     

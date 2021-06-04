@@ -25,6 +25,8 @@ public class DataHewanScript : MonoBehaviour
     [Tooltip("Mengecek apakah player berada pada jangkauan hewan atau tidak")]
     [SerializeField] private bool isPlayerThere = false;
 
+    [SerializeField] private bool hasMinigame = false;
+
     private void Awake()
     {
         so_hewan.Awake();
@@ -80,11 +82,33 @@ public class DataHewanScript : MonoBehaviour
         }
         else if (indx == 3)
         {
-            txtNamaHewan.text = so_hewan.namaHewan;
-            // status hewan terbuka
-            so_hewan.statusHewan = true;
-            so_hewan.ActivedHewan(1);
+
+
+            //cek apakah ada minigame pada hewan ini atau tidak;
+            if (hasMinigame)
+            {
+                listStatusActive[indx + 1] = true;
+                listButton[indx + 1].interactable = true;
+                CheckStatusButton();
+            }
+            else
+            {
+                // status hewan terbuka
+                OpenAnimal();
+            }
+
         }
+    }
+
+    /// <summary>
+    /// fungsi untuk membuka data hewan dan mengesave nya
+    /// </summary>
+    public void OpenAnimal()
+    {
+        txtNamaHewan.text = so_hewan.namaHewan;
+        so_hewan.statusHewan = true;
+        so_hewan.ActivedHewan(1);
+
     }
     #endregion
 
@@ -129,6 +153,10 @@ public class DataHewanScript : MonoBehaviour
                 if (!so_hewan.statusHewan)
                     StartCoroutine(ie_TimerBacaan(indx));
                 break;
+            case 4:
+                //minigame
+                Debug.Log("Main mini game");
+                break;
         }
 
     }
@@ -162,7 +190,7 @@ public class DataHewanScript : MonoBehaviour
 
             //bikin button interactable
             int i = 0;
-            foreach(var a in listStatusActive)
+            foreach (var a in listStatusActive)
             {
                 if (a)
                     listButton[i].interactable = true;

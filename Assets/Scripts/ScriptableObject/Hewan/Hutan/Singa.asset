@@ -9,10 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39949ba0e6f9dee44a1cbb5584a30258, type: 3}
-  m_Name: Gunung
+  m_Script: {fileID: 11500000, guid: 013e5febc524e42499fe1d0d0783c7a0, type: 3}
+  m_Name: Singa
   m_EditorClassIdentifier: 
-  namaMap: Gunung
-  listHewan:
-  - {fileID: 11400000, guid: 8378f0b31a1a4e14cbe9a50afcb0dac7, type: 2}
-  statusMap: 0
+  namaHewan: Singa
+  deskripsiHewan: Ini Singa
+  ciriHewan: Besar
+  makananHewan: Manusia
+  statusHewan: 0
+  gambarHewan: {fileID: 21300000, guid: f4e2e829b1a2cc94fb554517cf08d2c0, type: 3}

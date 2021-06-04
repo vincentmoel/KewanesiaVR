@@ -30,10 +30,10 @@ public class MapScript : MonoBehaviour
             foreach (var b in a.listHewan)
             {
                 //bikin tampilan progress
-                GameObject progress = Instantiate(objProgressTemplate[indxHewan], contentParentProgress[indxParent]);
+                GameObject progress = Instantiate(objProgressTemplate[indxParent], contentParentProgress[indxParent]);
                 progress.SetActive(true);
                 listProgress.Add(progress);
-                indxHewan++;
+              
 
                 b.Awake();
                 if (b.getStatusHewan())
@@ -47,8 +47,11 @@ public class MapScript : MonoBehaviour
                 CheckStatusHewan(jumActive, listProgress);
                 objMap[indxParent].GetComponent<SphereCollider>().enabled = true;
             }
-            else
+            else if(indxParent < listMap.Count)
+            {
                 CheckStatusHewan(jumActive, listProgress);
+                objMap[indxParent].GetComponent<SphereCollider>().enabled = false;
+            }
             listProgress.Clear();
         }
     }

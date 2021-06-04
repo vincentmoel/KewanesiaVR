@@ -999,12 +999,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 168423607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c84f14d89316c40bc6c48df57b9450, type: 3}
+  m_Script: {fileID: 11500000, guid: c5cad9b07f370244f9d9a910cb60951e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animPintu: {fileID: 0}
-  animPlayer: {fileID: 0}
-  GvrEditorEmulator: {fileID: 0}
 --- !u!4 &179436803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 499504, guid: 5c5d6555d9ad54d49a4654c80774e668,
@@ -1815,6 +1812,8 @@ MonoBehaviour:
   - {fileID: 1639191080}
   - {fileID: 1402589205}
   textCounter: {fileID: 1123541784}
+  ObjPlaceAnimal: {fileID: 1619281343}
+  dataHewanMonyet: {fileID: 1782220027}
 --- !u!82 &274860639
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5529,10 +5528,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5032008206429110586, guid: aec73746f805fbd40909fcfef3e0029e,
         type: 3}
+      propertyPath: listButton.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032008206429110586, guid: aec73746f805fbd40909fcfef3e0029e,
+        type: 3}
+      propertyPath: listStatusActive.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032008206429110586, guid: aec73746f805fbd40909fcfef3e0029e,
+        type: 3}
       propertyPath: so_hewan
       value: 
       objectReference: {fileID: 11400000, guid: d524063bce17afc4b9a0343a99074f5e,
         type: 2}
+    - target: {fileID: 5032008206429110586, guid: aec73746f805fbd40909fcfef3e0029e,
+        type: 3}
+      propertyPath: listButton.Array.data[4]
+      value: 
+      objectReference: {fileID: 1889100709}
+    - target: {fileID: 5032008206429110586, guid: aec73746f805fbd40909fcfef3e0029e,
+        type: 3}
+      propertyPath: hasMinigame
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5032008206429110587, guid: aec73746f805fbd40909fcfef3e0029e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6166,7 +6185,6 @@ GameObject:
   - component: {fileID: 1225309799}
   - component: {fileID: 1225309798}
   - component: {fileID: 1225309797}
-  - component: {fileID: 1225309796}
   - component: {fileID: 1225309795}
   m_Layer: 0
   m_Name: Next
@@ -6237,7 +6255,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 168423609}
+        - m_Target: {fileID: 0}
           m_MethodName: SceneChange
           m_Mode: 5
           m_Arguments:
@@ -6248,21 +6266,6 @@ MonoBehaviour:
             m_StringArgument: Gunung
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &1225309796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1225309793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c84f14d89316c40bc6c48df57b9450, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animPintu: {fileID: 0}
-  animPlayer: {fileID: 0}
-  GvrEditorEmulator: {fileID: 0}
 --- !u!136 &1225309797
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9765,7 +9768,6 @@ GameObject:
   - component: {fileID: 1406650082}
   - component: {fileID: 1406650081}
   - component: {fileID: 1406650080}
-  - component: {fileID: 1406650079}
   - component: {fileID: 1406650078}
   m_Layer: 0
   m_Name: Back
@@ -9836,21 +9838,6 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls: []
---- !u!114 &1406650079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406650076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c84f14d89316c40bc6c48df57b9450, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animPintu: {fileID: 0}
-  animPlayer: {fileID: 0}
-  GvrEditorEmulator: {fileID: 0}
 --- !u!136 &1406650080
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10019,7 +10006,6 @@ GameObject:
   - component: {fileID: 1434222367}
   - component: {fileID: 1434222366}
   - component: {fileID: 1434222365}
-  - component: {fileID: 1434222364}
   - component: {fileID: 1434222363}
   m_Layer: 0
   m_Name: Menu
@@ -10091,7 +10077,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 168423609}
-          m_MethodName: SceneChange
+          m_MethodName: ChangeScene
           m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -10101,21 +10087,6 @@ MonoBehaviour:
             m_StringArgument: MainMenu
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &1434222364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434222361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c84f14d89316c40bc6c48df57b9450, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animPintu: {fileID: 0}
-  animPlayer: {fileID: 0}
-  GvrEditorEmulator: {fileID: 0}
 --- !u!136 &1434222365
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11993,6 +11964,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bee8d047e16101c438fb33382ab66935, type: 3}
+--- !u!114 &1782220027 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5032008206429110586, guid: aec73746f805fbd40909fcfef3e0029e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080205194}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d2bda169923024bb2e3c9f77ff3b0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1789080838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12823,6 +12806,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1619281343}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1889100710
 MonoBehaviour:
