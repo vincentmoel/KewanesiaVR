@@ -2,38 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Low_poly_styled_rocks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewLayer.terrainlayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewLayer.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Anim UI/Quit.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Anim UI/Quit.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeSceneInGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeSceneInGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/VolumeSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/VolumeSetting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TEst.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TEst.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/normal_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/normal_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/translucency_gloss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/translucency_gloss.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/normal_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/normal_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/translucency_gloss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/translucency_gloss.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +26,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/MonyetGame.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/VolumeSetting.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ButtonSound.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sImG9Wfnx3w19PmpVdvNstIb4T" />
@@ -105,6 +81,7 @@
       <workItem from="1621866613548" duration="1576000" />
       <workItem from="1621958012713" duration="765000" />
       <workItem from="1622726548167" duration="837000" />
+      <workItem from="1622961585014" duration="1730000" />
     </task>
     <servers />
   </component>

@@ -43,12 +43,13 @@ public class MinigameMonyet : MonoBehaviour
 
     
     private void OnTriggerEnter(Collider other) {
+
         if (other.gameObject.CompareTag("Monyet")) {
             Destroy(other.gameObject);
             count++;
             textCounter.text = "Monyet : " + count.ToString() + "/5";
             
-            if (count == 5)
+            if (count == 1)
             {
                 textCounter.text = "Misi selesai !";
                 textCounter.fontSize = 100;
