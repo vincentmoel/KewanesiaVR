@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Elang
   m_EditorClassIdentifier: 
   namaHewan: Elang
-  deskripsiHewan: 
-  ciriHewan: 
-  makananHewan: 
+  deskripsiHewan: S
+  ciriHewan: S
+  makananHewan: S
   statusHewan: 0
   gambarHewan: {fileID: 0}

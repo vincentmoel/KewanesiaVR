@@ -7,6 +7,7 @@ using TMPro;
 public class DataHewanScript : MonoBehaviour
 {
     public Color colorDisable;
+    public GameObject animalObject;
 
     [Header("SO hewan")]
     public HewanScriptable so_hewan;
@@ -52,6 +53,8 @@ public class DataHewanScript : MonoBehaviour
         {
             listStatusActive[i] = true;
         }
+        
+        animalObject.SetActive(true);
     }
 
     /// <summary>
@@ -150,8 +153,10 @@ public class DataHewanScript : MonoBehaviour
                 break;
             case 3:
                 TampilText(so_hewan.makananHewan);
-                if (!so_hewan.statusHewan)
+                if (!so_hewan.statusHewan) {
                     StartCoroutine(ie_TimerBacaan(indx));
+                    animalObject.SetActive(true);
+                }
                 break;
             case 4:
                 //minigame
