@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lokasi/Hutan.unity
     guid: 61c08bb8a032b6545ae29af713ec63d9
-  - enabled: 0
-    path: Assets/Scenes/Lokasi/Gunung.unity
+  - enabled: 1
+    path: Assets/Scenes/Lokasi/Mountain.unity
     guid: 365487adbdeb66d4fb90ee9d6e1830e4
   m_configObjects: {}
