@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Gunung.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Gunung.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_a324a6c3-cf7c-43eb-8dff-4a9c5e3bd7dc.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_a324a6c3-cf7c-43eb-8dff-4a9c5e3bd7dc.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timeline.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timeline/SceneMonyet.playable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timeline/SceneMonyet.playable.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +83,7 @@
       <workItem from="1624025572452" duration="3462000" />
       <workItem from="1624114589529" duration="127000" />
       <workItem from="1624115188253" duration="1144000" />
+      <workItem from="1625415512778" duration="270000" />
     </task>
     <servers />
   </component>
