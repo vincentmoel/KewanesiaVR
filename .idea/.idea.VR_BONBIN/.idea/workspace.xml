@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="" />
+    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/GoogleVR/GVRVideoPlayer.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/GoogleVR/Scripts/InstantPreview/InstantPreview.apk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Gunung.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Gunung/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Gunung/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/TerrainData_033449e2-3e6f-4c13-913f-a3d4fda86e83.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/TerrainData_033449e2-3e6f-4c13-913f-a3d4fda86e83.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/TerrainData_24b918ae-80cd-41e3-ac8a-279a38fa5fcf.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/TerrainData_24b918ae-80cd-41e3-ac8a-279a38fa5fcf.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_5d660430-7caa-4fce-a1ba-691d0265b70c.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_5d660430-7caa-4fce-a1ba-691d0265b70c.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +95,7 @@
       <workItem from="1624114589529" duration="127000" />
       <workItem from="1624115188253" duration="1144000" />
       <workItem from="1625415512778" duration="270000" />
+      <workItem from="1625574600461" duration="10000" />
     </task>
     <servers />
   </component>
