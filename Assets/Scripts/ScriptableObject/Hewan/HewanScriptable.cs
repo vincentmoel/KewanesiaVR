@@ -9,11 +9,8 @@ public class HewanScriptable : ScriptableObject
     //attribute item
     [Header("Attribute Data Hewan")]
     public string namaHewan;
-    public string deskripsiHewan;
-    public string ciriHewan;
-    public string makananHewan;
     public bool statusHewan;
-    public Sprite gambarHewan;
+
 
     public void Awake()
     {

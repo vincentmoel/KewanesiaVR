@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 013e5febc524e42499fe1d0d0783c7a0, type: 3}
-  m_Name: Singa
+  m_Name: Gorilla
   m_EditorClassIdentifier: 
-  namaHewan: Singa
-  deskripsiHewan: Ini Singa
-  ciriHewan: Besar
-  makananHewan: Manusia
+  namaHewan: Gorilla
   statusHewan: 0
-  gambarHewan: {fileID: 21300000, guid: f4e2e829b1a2cc94fb554517cf08d2c0, type: 3}

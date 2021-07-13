@@ -21,7 +21,7 @@ public class MinigameMonyet : MonoBehaviour
 
     public GameObject ObjPlaceAnimal; //parent dari list list animal
 
-    public DataHewanScript dataHewanMonyet;
+    //public DataHewanScript dataHewanMonyet;
 
     // Start is called before the first frame update
     void Start()
@@ -57,7 +57,7 @@ public class MinigameMonyet : MonoBehaviour
         yield return new WaitForSeconds(5);
         monyet.SetActive(false);
         animalCounter.SetActive(false);
-        dataHewanMonyet.OpenAnimal();
+        //dataHewanMonyet.OpenAnimal();
         finishSoundSource.Stop();
         bgmSource.clip = bgmSound;
         bgmSource.Play();
