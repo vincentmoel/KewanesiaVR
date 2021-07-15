@@ -6,7 +6,7 @@ using UnityEngine;
 public class MinigameMonyet : MonoBehaviour
 {
     private int count;
-    public GameObject monyet;
+    public GameObject cat;
     public GameObject animalCounter;
 
     public AudioClip finishSound;
@@ -15,13 +15,12 @@ public class MinigameMonyet : MonoBehaviour
     public AudioSource bgmSource;
     private AudioSource finishSoundSource;
 
-    public List<GameObject> listMonyet;
+    public List<GameObject> listcats;
 
     public TextMeshProUGUI textCounter;
 
     public GameObject ObjPlaceAnimal; //parent dari list list animal
 
-    //public DataHewanScript dataHewanMonyet;
 
     // Start is called before the first frame update
     void Start()
@@ -34,11 +33,11 @@ public class MinigameMonyet : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.CompareTag("Monyet"))
+        if (other.gameObject.CompareTag("Cat"))
         {
             other.gameObject.SetActive(false);
             count++;
-            textCounter.text = "Monyet : " + count.ToString() + "/5";
+            textCounter.text = "Cat : " + count.ToString() + "/5";
 
             if (count == 5)
             {
@@ -55,9 +54,8 @@ public class MinigameMonyet : MonoBehaviour
     private IEnumerator CounterTimer()
     {
         yield return new WaitForSeconds(5);
-        monyet.SetActive(false);
+        cat.SetActive(false);
         animalCounter.SetActive(false);
-        //dataHewanMonyet.OpenAnimal();
         finishSoundSource.Stop();
         bgmSource.clip = bgmSound;
         bgmSource.Play();
@@ -70,26 +68,27 @@ public class MinigameMonyet : MonoBehaviour
 
         //reset the text canvas
         count = 0;
-        textCounter.text = "Monyet : " + count.ToString() + "/5";
+        textCounter.text = "Cat : " + count.ToString() + "/5";
         textCounter.alignment = TextAlignmentOptions.TopLeft;
         textCounter.fontSize = 32;
+
     }
 
-    public void ResetMonkeysPosition()
+    public void ResetCatPosition()
     {
-        List<int> monyetRandom = new List<int>();
-        while (monyetRandom.Count != 5)
+        List<int> catRandom = new List<int>();
+        while (catRandom.Count != 5)
         {
             int random = Random.Range(0, 10);
-            if (!monyetRandom.Contains(random))
+            if (!catRandom.Contains(random))
             {
-                monyetRandom.Add(random);
+                catRandom.Add(random);
             }
         }
 
-        foreach (var index in monyetRandom)
+        foreach (var index in catRandom)
         {
-            listMonyet[index].SetActive(true);
+            listcats[index].SetActive(true);
         }
 
         //play the audio game

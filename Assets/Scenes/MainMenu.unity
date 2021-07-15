@@ -7328,6 +7328,36 @@ MonoBehaviour:
             m_StringArgument: Laut
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 792521849}
+          m_MethodName: Off
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Laut
+            m_BoolArgument: 1
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 792521849}
+          m_MethodName: Off
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Laut
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &802241010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 470440, guid: 8ed1fa325ca228645ad26dd6eff14768,
@@ -15375,6 +15405,7 @@ GameObject:
   - component: {fileID: 1801673191}
   - component: {fileID: 1801673189}
   - component: {fileID: 1801673193}
+  - component: {fileID: 1801673190}
   m_Layer: 0
   m_Name: objGunung
   m_TagString: Untagged
@@ -15424,12 +15455,12 @@ MonoBehaviour:
             m_StringArgument: Gunung
             m_BoolArgument: 0
           m_CallState: 2
-  - eventID: 4
+  - eventID: 0
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 436664348}
-          m_MethodName: SetActive
+        - m_Target: {fileID: 1801673190}
+          m_MethodName: Off
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -15439,6 +15470,33 @@ MonoBehaviour:
             m_StringArgument: Gunung
             m_BoolArgument: 1
           m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1801673190}
+          m_MethodName: Off
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Gunung
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1801673190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801673187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6625f8d3897b924e9eae4e8e6ea8541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &1801673191
 MeshRenderer:
   m_ObjectHideFlags: 0
