@@ -708,27 +708,32 @@ PrefabInstance:
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Halo... Kamu ingin tahu tentang aku?
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -1129,6 +1134,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Beruang Grizzly...\r\nBanyak yang bisa kamu kenal dari
+        aku loh. Kamu ingin tahu tentang apa? Katakan saja !"
       objectReference: {fileID: 0}
     - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -14726,27 +14737,32 @@ PrefabInstance:
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Halo... Kamu ingin tahu tentang aku?
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -15103,6 +15119,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Gajah...\r\nBanyak yang bisa kamu kenal dari aku loh. Kamu
+        ingin tahu tentang apa? Katakan saja !"
       objectReference: {fileID: 0}
     - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -17302,27 +17324,32 @@ PrefabInstance:
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Halo... Kamu ingin tahu tentang aku?
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -17699,6 +17726,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Gorila...\r\nBanyak yang bisa kamu kenal dari aku loh.
+        Kamu ingin tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -17738,27 +17771,32 @@ PrefabInstance:
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Halo... Kamu ingin tahu tentang aku?
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -18144,6 +18182,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Jerapah...\r\nBanyak yang bisa kamu kenal dari aku loh.
+        Kamu ingin tahu tentang apa? Katakan saja !"
       objectReference: {fileID: 0}
     - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -25055,6 +25099,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Halo... Kamu ingin tahu tentang aku?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_Name
@@ -25339,6 +25408,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Miaw Miaw, Halo... namaku Kucing...\r\nBanyak yang bisa kamu kenal dari
+        aku loh. Kamu ingin tahu tentang apa? Katakan saja !"
       objectReference: {fileID: 0}
     - target: {fileID: 3081732766006869742, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
