@@ -982,6 +982,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764618800150, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8030265983748292088, guid: 437d602edc38d0b4886beb9e03eba30e,
+        type: 3}
     - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -1064,6 +1070,12 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764884472177, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8600665519168035230, guid: 437d602edc38d0b4886beb9e03eba30e,
+        type: 3}
     - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -1076,6 +1088,18 @@ PrefabInstance:
         berburu. Aku juga dapat bertahan hidup di suhu ekstrem. Aku juga hewan mamalia,
         yaitu hewan yang melahirkan dan menyusui.
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732765091417859, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f7bb100f1b084db459de0549f4583ce3,
+        type: 3}
+    - target: {fileID: 3081732765108926255, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2ce1f9551d87e734d88f480c2e5ba9f8,
+        type: 3}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -14961,6 +14985,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764618800150, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2932001012901618971, guid: 9351021399933944992bcac5d231e188,
+        type: 3}
     - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -15014,6 +15044,12 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764884472177, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -371361096860245066, guid: 9351021399933944992bcac5d231e188,
+        type: 3}
     - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -15026,6 +15062,18 @@ PrefabInstance:
         serangga kecil ditubuhku. Aku suka mandi lumpur, dengan mandi lumpur aku dapat
         mendinginkan suhu tubuhku agar tidak kepanasan.
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732765091417859, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c1f4caca672e0a44bf0d83e0f3f8ce6,
+        type: 3}
+    - target: {fileID: 3081732765108926255, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f3472e37f44d6f42a45526c8ab1275d,
+        type: 3}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -17503,6 +17551,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764618800150, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3549242980949848993, guid: 5d2ab13036100564a8c496ab4e469d2e,
+        type: 3}
     - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -17585,6 +17639,12 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764884472177, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4065971529676348238, guid: 5d2ab13036100564a8c496ab4e469d2e,
+        type: 3}
     - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -17597,6 +17657,18 @@ PrefabInstance:
         yang sangat akrab dan dekat dengan manusia. Walaupun aku mirip dengan monyet,
         tetapi aku tidak mempunyai ekor loh.
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732765091417859, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e5482c6199998d64cb06dab84c62688f,
+        type: 3}
+    - target: {fileID: 3081732765108926255, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 021a32e1ce498204faf709f5babf91fc,
+        type: 3}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -17925,6 +17997,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764618800150, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -622126003464318781, guid: 84a6adf0276ab3a41978a5878ea48728,
+        type: 3}
     - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -18007,6 +18085,12 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764884472177, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8315206153039989128, guid: 84a6adf0276ab3a41978a5878ea48728,
+        type: 3}
     - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
@@ -18019,6 +18103,18 @@ PrefabInstance:
         sangat panjang ini memiliki rambut diujung ekorku. Aku suka hidup berkelompok,
         jadi kami suka hidup bersama dengan jerapah lain.
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732765091417859, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6e29569bbe043d1468469451cbdc86fc,
+        type: 3}
+    - target: {fileID: 3081732765108926255, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8877b4215d40e894fbbced5ee8e70100,
+        type: 3}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
