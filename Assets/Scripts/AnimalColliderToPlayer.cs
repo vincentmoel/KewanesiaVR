@@ -39,13 +39,10 @@ public class AnimalColliderToPlayer : MonoBehaviour
     public bool makanan;
     public bool gambar;
 
-
-    //set animator button
-    public string path_Animation;
-    public Animator anim_btnCiri;
-    public Animator anim_btnTempatTinggal;
-    public Animator anim_btnMakanan;
-    public Animator anim_btnGambar;
+    public GameObject obj_ciriDone;
+    public GameObject obj_tempatTinggalDone;
+    public GameObject obj_makananDone;
+    public GameObject obj_gambarDone;
 
     private void Awake()
     {
@@ -86,8 +83,8 @@ public class AnimalColliderToPlayer : MonoBehaviour
         {
             ciri = true;
             SpawnConfety();
-            anim_btnCiri.runtimeAnimatorController = Resources.Load(path_Animation) as RuntimeAnimatorController;
             CheckStatusActive();
+            obj_ciriDone.SetActive(true);
         }
 
     }
@@ -98,8 +95,8 @@ public class AnimalColliderToPlayer : MonoBehaviour
         {
             tempatTinggal = true;
             SpawnConfety();
-            anim_btnTempatTinggal.runtimeAnimatorController = Resources.Load(path_Animation) as RuntimeAnimatorController;
             CheckStatusActive();
+            obj_tempatTinggalDone.SetActive(true);
         }
     }
 
@@ -109,8 +106,8 @@ public class AnimalColliderToPlayer : MonoBehaviour
         {
             makanan = true;
             SpawnConfety();
-            anim_btnMakanan.runtimeAnimatorController = Resources.Load(path_Animation) as RuntimeAnimatorController;
             CheckStatusActive();
+            obj_makananDone.SetActive(true);
         }
     }
 
@@ -120,8 +117,8 @@ public class AnimalColliderToPlayer : MonoBehaviour
         {
             gambar = true;
             SpawnConfety();
-            anim_btnGambar.runtimeAnimatorController = Resources.Load(path_Animation) as RuntimeAnimatorController;
             CheckStatusActive();
+            obj_gambarDone.SetActive(true);
         }
     }
 
@@ -163,10 +160,10 @@ public class AnimalColliderToPlayer : MonoBehaviour
         makanan = true;
         gambar = true;
 
-        anim_btnGambar.runtimeAnimatorController = Resources.Load(path_Animation) as RuntimeAnimatorController;
-        anim_btnCiri.runtimeAnimatorController = Resources.Load(path_Animation) as RuntimeAnimatorController;
-        anim_btnMakanan.runtimeAnimatorController = Resources.Load(path_Animation) as RuntimeAnimatorController;
-        anim_btnTempatTinggal.runtimeAnimatorController = Resources.Load(path_Animation) as RuntimeAnimatorController;
+        obj_ciriDone.SetActive(true);
+        obj_tempatTinggalDone.SetActive(true);
+        obj_makananDone.SetActive(true);
+        obj_gambarDone.SetActive(true);
 
         animal_data.SetStatusHewan(true);
     }

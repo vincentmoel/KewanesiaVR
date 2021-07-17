@@ -21,6 +21,8 @@ public class MinigameMonyet : MonoBehaviour
 
     public GameObject ObjPlaceAnimal; //parent dari list list animal
 
+    public GameObject Animal;
+
 
     // Start is called before the first frame update
     void Start()

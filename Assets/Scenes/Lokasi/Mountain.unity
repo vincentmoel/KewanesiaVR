@@ -11094,7 +11094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1680810135
 Transform:
   m_ObjectHideFlags: 0
@@ -12258,7 +12258,7 @@ PrefabInstance:
     - target: {fileID: 95827728344365426, guid: fc3da0b1b2ade5f4b862ae549728831f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114730609460955830, guid: fc3da0b1b2ade5f4b862ae549728831f,
         type: 3}
@@ -12283,7 +12283,7 @@ PrefabInstance:
     - target: {fileID: 195644442718834230, guid: fc3da0b1b2ade5f4b862ae549728831f,
         type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 195644442718834230, guid: fc3da0b1b2ade5f4b862ae549728831f,
         type: 3}
@@ -12331,9 +12331,16 @@ MonoBehaviour:
   isPlayerNear: 0
   agent: {fileID: 2064227714}
   playerPos: {fileID: 761926424}
+  anim: {fileID: 2064227719}
 --- !u!195 &2064227714 stripped
 NavMeshAgent:
   m_CorrespondingSourceObject: {fileID: 195644442718834230, guid: fc3da0b1b2ade5f4b862ae549728831f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2064227710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2064227719 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95827728344365426, guid: fc3da0b1b2ade5f4b862ae549728831f,
     type: 3}
   m_PrefabInstance: {fileID: 2064227710}
   m_PrefabAsset: {fileID: 0}

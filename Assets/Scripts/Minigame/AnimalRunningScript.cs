@@ -11,6 +11,7 @@ public class AnimalRunningScript : MonoBehaviour
 
     public Transform playerPos;
 
+    public Animator anim;
 
     public void Update()
     {
@@ -23,6 +24,14 @@ public class AnimalRunningScript : MonoBehaviour
             Vector3 newpos = transform.position + dirToPlayer; //To make a new position based on dirToPlayer distance
             agent.SetDestination(newpos); //Move the object
         }
+
+        if (!isPlayerNear)
+        {
+            if(transform.position == agent.destination)
+            {
+                anim.SetBool("isRunning", false);
+            }
+        }
     }
 
 
@@ -31,6 +40,8 @@ public class AnimalRunningScript : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             isPlayerNear = true;
+            anim.SetBool("isRunning", true);
+            StopCoroutine(ie_DisableRun());
         }
     }
 
@@ -40,6 +51,12 @@ public class AnimalRunningScript : MonoBehaviour
         {
             isPlayerNear = false;
         }
+    }
+
+    IEnumerator ie_DisableRun()
+    {
+        yield return new WaitForSeconds(1f);
+        anim.SetBool("isRunning", false);
     }
 
 
