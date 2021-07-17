@@ -940,6 +940,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764494295451, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Buah
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764551042380, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Tubuhku ini sangat besar, beratku bisa mencapai 400KG. Jika aku berdiri,
+        tinggiku mencapai 200cm. Aku punya bulu warna coklatku yang sangat lebat,
+        itulah yang membuat tubuhku hangat.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -969,6 +981,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Kami banyak ditemukan di wilayah Alaska dan Kanada. Saat awal musim gugur,
+        kami menggali sarang. Kami suka untuk memilih area di bawah akar pohon besar
+        atau sepanjang lereng bukut untuk sarang kami.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -1045,6 +1064,18 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Ikan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Banyak orang mengenalku sebagai predator ganas karena kemampuanku dalam
+        berburu. Aku juga dapat bertahan hidup di suhu ekstrem. Aku juga hewan mamalia,
+        yaitu hewan yang melahirkan dan menyusui.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1075,6 +1106,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Kedua jawaban benar, Aku suka makan buah. Tapi aku juga suka makan ikan,
+        rumput, daun, akar. Selain itu aku juga suka memakan hewan kecil maupun besar
+        seperti lebah, tikus, rusa, domba, dan lainnya.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732766006869742, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_Material
@@ -1084,6 +1122,20 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Kedua jawaban benar, Aku suka berburu ikan. Tapi aku juga suka makan
+        buah, rumput, daun, akar. Selain itu aku juga suka memakan hewan kecil maupun
+        besar seperti lebah, tikus, rusa, domba, dan lainnya.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku suka berjalan dengan keempat kakiku. Aku punya taring yang tajam
+        sekali, gigi ku sangat membantuku dalam berburu. Aku juga punya cakar yang
+        panjang nya bisa sampai 10cm loh.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
@@ -1267,7 +1319,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh115590
+  m_Name: pb_Mesh31030
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2722,6 +2774,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9991b226736b6964782c28d07cef8881, type: 3}
+--- !u!1 &144710047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3081732765718766816, guid: b6db822aef22a784b84bb297d794dde6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594169806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &165837492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3273,7 +3331,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh115520
+  m_Name: pb_Mesh30944
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5588,6 +5646,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca5c291357dc8c54bbb0f485cdccdf17, type: 3}
+--- !u!1 &473267944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3081732764038539508, guid: b6db822aef22a784b84bb297d794dde6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594169806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &475333080
 GameObject:
   m_ObjectHideFlags: 0
@@ -5908,7 +5972,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh115160
+  m_Name: pb_Mesh30570
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7189,18 +7253,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca5c291357dc8c54bbb0f485cdccdf17, type: 3}
---- !u!1 &716888390 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &721865617 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3081732765718766816, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &725561028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8514,7 +8566,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh115542
+  m_Name: pb_Mesh30966
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10377,7 +10429,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh115332
+  m_Name: pb_Mesh30762
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10817,6 +10869,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191255562}
   m_CullTransparentMesh: 0
+--- !u!1 &1199037548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4047020840582832572, guid: b6db822aef22a784b84bb297d794dde6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594169806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1200285779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10943,6 +11001,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c5dc77a75a234354a770cd9149a9166, type: 3}
+--- !u!1 &1201650174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594169806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1201650175 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594169806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1204216571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3081732765718766816, guid: b6db822aef22a784b84bb297d794dde6,
@@ -14193,510 +14263,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &1296526637
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1827040326}
-    m_Modifications:
-    - target: {fileID: 3081732764038539508, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Name
-      value: papanGorilla
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: spawnMax.x
-      value: 10.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: spawnMax.z
-      value: -2.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: spawnMax.y
-      value: 5.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427982, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0014136686
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.0000020478317
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.0014485911
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.162
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.16600001
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 10.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 1.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.3973029
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764178710067, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764178710067, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764178710067, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764178710067, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1827040328}
-    - target: {fileID: 3081732764178710067, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ClosePapan
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764178710067, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764191181911, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216657075, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216657075, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216657075, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216657075, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4e4c9f071d232904a83aa19528003f83,
-        type: 3}
-    - target: {fileID: 3081732764216657075, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216657085, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216657087, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
-      value: 
-      objectReference: {fileID: 1827040328}
-    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: DoneMakanan
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1827040328}
-    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: DoneTempatTinggal
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1827040328}
-    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: DoneGambar
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
-      value: 
-      objectReference: {fileID: 1827040328}
-    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: DoneMakanan
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765427413052, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.12156863
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765427413052, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.05882353
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765427413052, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.015686275
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765427413052, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1827040328}
-    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: DoneCiri
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732765718766816, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732766006869742, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732766006869742, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3081732766006869742, guid: b6db822aef22a784b84bb297d794dde6,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
---- !u!1 &1296526638 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4288105191188672913, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1296526639 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2148802531480825995, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1296526640 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4047020840582832572, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1296526641 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5792131236734490308, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1305105125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 404742, guid: e13d89ce323009a4a8a53d439b0a74e4,
@@ -15353,6 +14919,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764494295451, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Tumbuhan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764551042380, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku adalah hewan mamalia dengan tubuh yang besar dan tinggi, bentuk telingaku
+        juga sangat lebar berbeda dari hewan lain. Aku mempunyai hidung yang panjang
+        sekali, dan hidungku ini dinamakan belalai.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -15382,6 +14960,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Hutan tropis, gurun, dan sabana adalah habitatku. Aku tinggal di tempat
+        yang dekat dengan perairan karena aku suka mandi di sungai. Temanku Gajah
+        Asia bisa ditemukan di India dan Asia Tenggara. Jika Gajah Afrika bisa ditemukan
+        di Afrika barat dan tengah.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -15428,6 +15014,18 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Daging
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Kulitku ini sangat tebal, walau tebal aku tetap bisa merasakan gigitan
+        serangga kecil ditubuhku. Aku suka mandi lumpur, dengan mandi lumpur aku dapat
+        mendinginkan suhu tubuhku agar tidak kepanasan.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -15458,6 +15056,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Jawabanmu benar sekali. Aku adalah hewan herbivora, jadi aku adalah pemakan
+        tumbuh-tumbuhan. Aku suka makan bambu, ranting, bunga, biji-bijian, rumput,
+        dan buah-buahan. Belalaiku membantu aku dengan memasukkan makanan ke mulut.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732766006869742, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_Material
@@ -15467,6 +15072,20 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Yah, jawabanmu salah. Aku adalah hewan herbivora, jadi aku adalah pemakan
+        tumbuh-tumbuhan. Aku suka makan bambu, ranting, bunga, biji-bijian, rumput,
+        dan buah-buahan. Belalaiku membantu aku dengan memasukkan makanan ke mulut.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Jika tubuhku ini diukur beratnya bisa mencapai 4000KG - 10000KG. Warna
+        kulitku adalah abu-abu tua. Aku memiliki gading yang panjang dan kuat berwarna
+        putih yang terletak di wajah.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
@@ -16048,7 +15667,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh115230
+  m_Name: pb_Mesh30672
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17486,12 +17105,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 836663366}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &1579240223 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1584260022 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 426ad3cb7c9d2a44b97b3363a28db016,
@@ -17631,6 +17244,412 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1462168631}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1594169806
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1827040326}
+    m_Modifications:
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764087510008, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Name
+      value: papanGorila
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: spawnMax.x
+      value: 13.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: spawnMax.y
+      value: 4.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: spawnMax.z
+      value: -1.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0014136686
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000020478317
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0014485911
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.162
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.16600001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 13.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1827040328}
+    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: DoneMakanan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764216660691, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1827040328}
+    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DoneTempatTinggal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764439947148, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764551042380, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku adalah hewan yang tergolong mamalia. Aku memiliki tubuh yang besar
+        dan gagah. Berat badanku bisa mencapai 190KG. Aku memiliki bulu di tubuhku
+        yang berwarna hitam. Tinggiku bisa mencapai 1,8 meter.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1827040328}
+    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DoneGambar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku berasal dari hutan tropis di Afrika. Aku suka hidup di hutan yang
+        lebat dan rawa - rawa. Tidak hanya di daratan yang rendah, beberapa temanku
+        juga hidup di tempat yang lebih tinggi yaitu pegunungan.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1827040328}
+    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: DoneMakanan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764756790370, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764860991541, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Buah
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Walaupun tubuhku lebih besar dari manusia, aku adalah salah satu hewan
+        yang sangat akrab dan dekat dengan manusia. Walaupun aku mirip dengan monyet,
+        tetapi aku tidak mempunyai ekor loh.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1827040328}
+    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DoneCiri
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Jawabanmu salah, Aku adalah hewan herbivora. Jadi aku bisa tumbuh sehat
+        dan kuat karena aku suka makan sayur-sayuran, buah-buahan, dan dedaunan. Namun
+        terkadang aku juga suka memakan serangga.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Jawabanmu benar, Aku adalah hewan herbivora. Jadi aku bisa tumbuh sehat
+        dan kuat karena aku suka makan sayur-sayuran, buah-buahan, dan dedaunan. Namun
+        terkadang aku juga suka memakan serangga.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Jika kalian perhatikan tangan dan kakiku, kedua tanganku lebih panjang
+        daripada kakiku. Walaupun aku mempunyai tangan, aku suka berjalan dengan tangan
+        dan kakiku. Kami suka hidup berkelompok dengan Gorila lainnya.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
 --- !u!4 &1615944208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4811441582283162, guid: dc5363e4f96074139a5af2e1df6a8928,
@@ -17864,6 +17883,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764494295451, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Tumbuhan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764551042380, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Hai, aku adalah hewan mamalia. Aku memiliki leher dan kaki yang sangat
+        panjang sehingga aku disebut hewan tertinggi di daratan. Tinggku bisa mencapai
+        6 meter, hampir setara dengan pohon.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -17893,6 +17924,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku banyak ditemukan di Afrika Selatan, Namibia, Botswana, Zimbabwe,
+        dan Mozambik. Banyak dari kami tinggal di bioma sabana, disana tempatnya panas
+        dan banyak ditumbuhi rumput dan beberapa pohon.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -17969,6 +18007,18 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Daging
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku juga punya lidah yang panjang bisa mencapai 40cm. Dan ekorku yang
+        sangat panjang ini memiliki rambut diujung ekorku. Aku suka hidup berkelompok,
+        jadi kami suka hidup bersama dengan jerapah lain.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -17999,6 +18049,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Benar. Aku adalah hewan herbivora. Herbivora adalah hewan yang memakan
+        tumbuhan seperti rumput, daun-daunan, biji-bijian dan buah-buahan. Maka dari
+        itu, leher kami panjang sehingga kami dapat makan daun segar yang berada di
+        atas pohon.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732766006869742, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_Material
@@ -18008,6 +18066,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Salah. Aku adalah hewan herbivora. Herbivora adalah hewan yang memakan
+        tumbuhan seperti rumput, daun-daunan, biji-bijian dan buah-buahan. Maka dari
+        itu, leher kami panjang sehingga kami dapat makan daun segar yang berada di
+        atas pohon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Dikepalaku ada dua tanduk dengan ukuran yang kecil.  Kulitku ini berwarna
+        coklat dan ada banyak corak berwarna terang ditubuhku. Wajahku ini punya moncong
+        yang panjang untuk makan.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
@@ -19486,31 +19559,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c5d6555d9ad54d49a4654c80774e668, type: 3}
---- !u!1 &1737484199 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3081732764216657087, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1737484200
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737484199}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a11c3b0d517bbc24e83255be4b50e64f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1738567668 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4336554176863652, guid: 7efd45947c60593499aa27f27b2fc943,
@@ -19857,6 +19905,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1079894367}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1814315321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4288105191188672913, guid: b6db822aef22a784b84bb297d794dde6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594169806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1821822495
 GameObject:
   m_ObjectHideFlags: 0
@@ -19991,7 +20045,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1579240223}
+  - {fileID: 1201650175}
   - {fileID: 806986188}
   - {fileID: 1638967664}
   m_Father: {fileID: 1471686523}
@@ -20026,7 +20080,7 @@ MonoBehaviour:
     papanEvent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2026810437}
+        - m_Target: {fileID: 473267944}
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -20037,7 +20091,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-        - m_Target: {fileID: 721865617}
+        - m_Target: {fileID: 144710047}
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -20053,15 +20107,15 @@ MonoBehaviour:
   closePapan: 0
   confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
     type: 3}
-  obj_papan: {fileID: 716888390}
+  obj_papan: {fileID: 1201650174}
   ciri: 0
   tempatTinggal: 0
   makanan: 0
   gambar: 0
-  obj_ciriDone: {fileID: 1296526641}
-  obj_tempatTinggalDone: {fileID: 1296526640}
-  obj_makananDone: {fileID: 1296526639}
-  obj_gambarDone: {fileID: 1296526638}
+  obj_ciriDone: {fileID: 2007969473}
+  obj_tempatTinggalDone: {fileID: 1199037548}
+  obj_makananDone: {fileID: 1857989199}
+  obj_gambarDone: {fileID: 1814315321}
 --- !u!4 &1842655020 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 416522, guid: bee8d047e16101c438fb33382ab66935,
@@ -20180,6 +20234,12 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 1374065012}
   obj_makananDone: {fileID: 1374065011}
   obj_gambarDone: {fileID: 1374065010}
+--- !u!1 &1857989199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2148802531480825995, guid: b6db822aef22a784b84bb297d794dde6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594169806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1878837145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22695,6 +22755,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8819d1f0ee1405c4298ccf3998d56ffb, type: 3}
+--- !u!1 &2007969473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5792131236734490308, guid: b6db822aef22a784b84bb297d794dde6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594169806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2008976196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3081732764038539508, guid: b6db822aef22a784b84bb297d794dde6,
@@ -22842,12 +22908,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 416522, guid: bee8d047e16101c438fb33382ab66935,
     type: 3}
   m_PrefabInstance: {fileID: 2118495739}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2026810437 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3081732764038539508, guid: b6db822aef22a784b84bb297d794dde6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1296526637}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2043890781 stripped
 Transform:

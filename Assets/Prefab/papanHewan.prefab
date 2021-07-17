@@ -126,7 +126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3081732764038539499
 RectTransform:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3081732764048251716}
   m_Layer: 5
-  m_Name: makananDaun/Rumput
+  m_Name: makanan1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3586,7 +3586,7 @@ GameObject:
   - component: {fileID: 3081732764713293315}
   - component: {fileID: 3081732764713293324}
   m_Layer: 5
-  m_Name: btnDaun/Rumput
+  m_Name: btnOption1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4381,7 +4381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3081732764865525762}
   m_Layer: 5
-  m_Name: makananDaging
+  m_Name: makanan2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9337,7 +9337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3081732765718766823
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10642,7 +10642,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3081732766006869736}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -10993,7 +10993,7 @@ GameObject:
   - component: {fileID: 3081732766067732310}
   - component: {fileID: 3081732766067732311}
   m_Layer: 5
-  m_Name: btnDaging
+  m_Name: btnOption2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
