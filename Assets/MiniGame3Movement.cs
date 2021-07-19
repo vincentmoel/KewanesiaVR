@@ -34,7 +34,8 @@ public class MiniGame3Movement : MonoBehaviour
         vrCamera.localRotation = Quaternion.Euler(Vector3.zero);
 
 
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        rb.velocity = forward * speed;
+        //Vector3 forward = transform.TransformDirection(Vector3.forward);
+        //rb.velocity = forward * speed;
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 }

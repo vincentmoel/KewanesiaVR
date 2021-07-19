@@ -13,7 +13,6 @@ public class MinigameMonyet : MonoBehaviour
     public AudioClip bgmSound;
     public AudioClip gameSound;
     public AudioSource bgmSource;
-    private AudioSource finishSoundSource;
 
     public List<GameObject> listcats;
 
@@ -27,11 +26,9 @@ public class MinigameMonyet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        finishSoundSource = GetComponent<AudioSource>();
-        finishSoundSource.clip = finishSound;
+
     }
-
-
+    
     private void OnTriggerEnter(Collider other)
     {
 
@@ -46,8 +43,13 @@ public class MinigameMonyet : MonoBehaviour
                 textCounter.text = "Misi selesai !";
                 textCounter.fontSize = 100;
                 textCounter.alignment = TextAlignmentOptions.Center;
-
-                finishSoundSource.Play();
+                
+                cat.SetActive(false);
+                
+                bgmSource.Stop();
+                bgmSource.clip = finishSound;
+                bgmSource.Play();
+                
                 StartCoroutine(CounterTimer());
             }
         }
@@ -58,11 +60,13 @@ public class MinigameMonyet : MonoBehaviour
         yield return new WaitForSeconds(5);
         cat.SetActive(false);
         animalCounter.SetActive(false);
-        finishSoundSource.Stop();
+        
+        bgmSource.Stop();
         bgmSource.clip = bgmSound;
         bgmSource.Play();
+        
         ObjPlaceAnimal.SetActive(transform);
-        ResetMiniGame();
+        Animal.SetActive(true);
     }
 
     public void ResetMiniGame()
@@ -73,6 +77,12 @@ public class MinigameMonyet : MonoBehaviour
         textCounter.text = "Cat : " + count.ToString() + "/5";
         textCounter.alignment = TextAlignmentOptions.TopLeft;
         textCounter.fontSize = 32;
+        
+        bgmSource.Stop();
+        bgmSource.clip = gameSound;
+        bgmSource.Play();
+        
+        ResetCatPosition();
 
     }
 
@@ -81,7 +91,7 @@ public class MinigameMonyet : MonoBehaviour
         List<int> catRandom = new List<int>();
         while (catRandom.Count != 5)
         {
-            int random = Random.Range(0, 10);
+            int random = Random.Range(0, 9);
             if (!catRandom.Contains(random))
             {
                 catRandom.Add(random);
@@ -94,6 +104,7 @@ public class MinigameMonyet : MonoBehaviour
         }
 
         //play the audio game
+        bgmSource.Stop();
         bgmSource.clip = gameSound;
         bgmSource.Play();
     }
