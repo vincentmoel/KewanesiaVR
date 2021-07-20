@@ -19,6 +19,7 @@ public class AnimalColliderToPlayer : MonoBehaviour
         public void ResetTampilanPapan()
         {
             papanEvent.Invoke();
+            
         }
     }
     public PapanSetting papan;

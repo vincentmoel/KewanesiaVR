@@ -21,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.terrain-tools@2.0.2-preview/Editor/TerrainTools/PaintTextureTool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B80225B3-57C6-4115-895F-5655E67DB547/6d/c07bc855/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -99,7 +100,7 @@
       <workItem from="1626094708201" duration="638000" />
       <workItem from="1626700353483" duration="2899000" />
       <workItem from="1626703675667" duration="3430000" />
-      <workItem from="1626771019200" duration="3150000" />
+      <workItem from="1626771019200" duration="4172000" />
     </task>
     <servers />
   </component>
