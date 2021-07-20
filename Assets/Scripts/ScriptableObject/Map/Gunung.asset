@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namaMap: Gunung
   listHewan:
-  - {fileID: 11400000, guid: 8378f0b31a1a4e14cbe9a50afcb0dac7, type: 2}
+  - {fileID: 11400000, guid: a11cf8b6298d9a343a41415772d50fb0, type: 2}
+  - {fileID: 11400000, guid: f3609c8918b81c946b54efd53365940f, type: 2}
+  - {fileID: 11400000, guid: 2a586cbebb718db4d92d23b4f8505267, type: 2}
+  - {fileID: 11400000, guid: 06b6bb2a4b76fe34ba0be93b55abf965, type: 2}
+  - {fileID: 11400000, guid: 7b3cb43b6f2a40348a5a27585a95f4e5, type: 2}
   statusMap: 0

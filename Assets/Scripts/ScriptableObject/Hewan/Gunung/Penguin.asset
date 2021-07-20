@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 013e5febc524e42499fe1d0d0783c7a0, type: 3}
-  m_Name: Elang
+  m_Name: Penguin
   m_EditorClassIdentifier: 
-  namaHewan: Elang
-  deskripsiHewan: S
-  ciriHewan: S
-  makananHewan: S
+  namaHewan: Penguin
   statusHewan: 0
-  gambarHewan: {fileID: 0}

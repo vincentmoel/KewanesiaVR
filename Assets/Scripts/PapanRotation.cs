@@ -15,6 +15,8 @@ public class PapanRotation : MonoBehaviour
 
     public Vector3 spawnMax; // nongol ke atas
     public Vector3 spawnMin; // kembali ke dasar
+
+    public float speed = 10f;
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>();
@@ -37,6 +39,7 @@ public class PapanRotation : MonoBehaviour
         if (transform.position.z < player.position.z)
         {
             transform.rotation = Quaternion.Euler(transform.rotation.x, rotateKurangDari, transform.rotation.z);
+            
 
         }
         else
@@ -51,11 +54,11 @@ public class PapanRotation : MonoBehaviour
 
         if (spawn && !GetComponentInParent<AnimalColliderToPlayer>().closePapan) // kalau player masuk ke area hewan. lakukan animasi muncul ke atas
         {
-            transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMax, Time.deltaTime * 10);
+            transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMax, Time.deltaTime * speed);
         }
         else
         {
-            transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMin, Time.deltaTime * 10);
+            transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMin, Time.deltaTime * speed);
         }
     }
 }

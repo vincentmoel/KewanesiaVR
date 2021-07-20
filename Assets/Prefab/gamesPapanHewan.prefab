@@ -367,7 +367,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_Name
-      value: papanKucing
+      value: gamesPapanHewan
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427976, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -412,7 +412,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.49227157
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -422,7 +422,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8704417
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -437,7 +437,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -58.980003
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
