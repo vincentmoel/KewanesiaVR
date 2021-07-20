@@ -2709,6 +2709,7 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 45908253}
   obj_makananDone: {fileID: 45908252}
   obj_gambarDone: {fileID: 45908251}
+  btn_maingames: {fileID: 0}
 --- !u!1001 &141776674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5894,6 +5895,7 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 3081732764733507102}
   obj_makananDone: {fileID: 3081732764733507101}
   obj_gambarDone: {fileID: 3081732764733507100}
+  btn_maingames: {fileID: 1339788403}
 --- !u!65 &475333083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10008,6 +10010,7 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 1616559394}
   obj_makananDone: {fileID: 1616559393}
   obj_gambarDone: {fileID: 1616559392}
+  btn_maingames: {fileID: 0}
 --- !u!4 &1024883466 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 496350, guid: 50673ce029549f04d8a30a3886523aad,
@@ -20593,6 +20596,7 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 1199037548}
   obj_makananDone: {fileID: 1857989199}
   obj_gambarDone: {fileID: 1814315321}
+  btn_maingames: {fileID: 0}
 --- !u!4 &1842655020 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 416522, guid: bee8d047e16101c438fb33382ab66935,
@@ -20711,6 +20715,7 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 1374065012}
   obj_makananDone: {fileID: 1374065011}
   obj_gambarDone: {fileID: 1374065010}
+  btn_maingames: {fileID: 0}
 --- !u!1 &1857989199 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2148802531480825995, guid: b6db822aef22a784b84bb297d794dde6,

@@ -19,8 +19,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.terrain-tools@2.0.2-preview/Editor/TerrainTools/PaintTextureTool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -33,6 +33,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DataHewanScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
       <option value="$PROJECT_DIR$/Assets/MiniGame3Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AnimalColliderToPlayer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sImG9Wfnx3w19PmpVdvNstIb4T" />
@@ -98,6 +99,7 @@
       <workItem from="1626094708201" duration="638000" />
       <workItem from="1626700353483" duration="2899000" />
       <workItem from="1626703675667" duration="3430000" />
+      <workItem from="1626771019200" duration="3150000" />
     </task>
     <servers />
   </component>

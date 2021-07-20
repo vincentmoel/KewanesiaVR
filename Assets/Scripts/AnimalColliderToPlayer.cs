@@ -44,6 +44,9 @@ public class AnimalColliderToPlayer : MonoBehaviour
     public GameObject obj_makananDone;
     public GameObject obj_gambarDone;
 
+
+
+    public GameObject btn_maingames;
     private void Awake()
     {
         if (animal_data.getStatusHewan())
@@ -150,6 +153,8 @@ public class AnimalColliderToPlayer : MonoBehaviour
         {
             animal_data.ActivedHewan(1);
             animal_data.SetStatusHewan(true);
+            btn_maingames.SetActive(true);
+
         }
     }
 
@@ -166,5 +171,7 @@ public class AnimalColliderToPlayer : MonoBehaviour
         obj_gambarDone.SetActive(true);
 
         animal_data.SetStatusHewan(true);
+        btn_maingames.SetActive(true);
+
     }
 }
