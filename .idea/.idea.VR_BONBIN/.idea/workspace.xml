@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Single Boat/Prefabs/single boat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Single Boat/Prefabs/single boat.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low_poly_styled_rocks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame3Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGame3Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" afterDir="false" />
-    </list>
+    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +97,7 @@
       <workItem from="1625893336436" duration="611000" />
       <workItem from="1626094708201" duration="638000" />
       <workItem from="1626700353483" duration="2899000" />
-      <workItem from="1626703675667" duration="2683000" />
+      <workItem from="1626703675667" duration="3430000" />
     </task>
     <servers />
   </component>
