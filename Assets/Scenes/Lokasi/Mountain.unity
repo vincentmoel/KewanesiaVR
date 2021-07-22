@@ -3949,6 +3949,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764551042380, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Hai, namaku Serigala. Tubuhku mirip dengan anjing karena kami bersaudaraan,
+        tetapi dari bentuk fisikku, tubuhku lebih besar daripada anjing. Aku memiliki
+        bulu yang berwarna abu-abu.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3978,6 +3985,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku hidup di daerah pegunungan dan hutan yang lebat. Aku tinggal di banyak
+        tempat seperti Amerika Serikat, Samudera Atlantik, New York, Pennsylvania
+        dan lainnya. Pastinya aku jauh dari tempat yang permukiman manusia.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -4080,6 +4094,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: d070aa03df173154d9a9f98f2a3ecdb7,
         type: 3}
+    - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Tumbuhan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku berkembang biak dengan cara melahirkan. Kami para serigala suka hidup
+        berkelompok dengan serigala-serigala lainnya. Orang-orang mengenalku sebagai
+        hewan liar yang buas karena kami suka berburu.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -4109,6 +4135,33 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Serigala...\r\nBanyak yang bisa kamu kenal dari aku loh.
+        Kamu ingin tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Benar. Aku adalah hewan karnivora yang suka memakan daging hewan lainnya
+        seperti rusa, babi hutan, dan lain-lain. Maka dari itu kami suka berburu untuk
+        makan.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Salah. Aku tidak hewan herbivora yang suka memakan tumbuh-tumbuhan. Aku
+        adalah hewan karnivora yang suka memakan daging hewan lainnya seperti rusa,
+        babi hutan, dan lain-lain. Maka dari itu kami suka berburu.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Namun ada beberapa temanku yang memiliki bulu berwarna orange, putih,
+        dan coklat. Aku  memiliki gigi yang sangat tajam dan indra penciuman yang
+        kuat. Ekorku juga berukuran panjang dan berbulu lebat.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
@@ -11398,6 +11451,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764494295451, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Buah
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764551042380, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Hai\u2026 Aku adalah hewan mamalia Bernama Pinguin. Aku memiliki bulu
+        yang tebal berwarna putih dibagian dalam dan hitam dibagian sayap luar. Jika
+        kamu melihatku, aku memang memiliki sayap, tetapi aku tidak bisa terbang. "
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11427,6 +11492,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku mampu hidup dan bertahan di suhu yang dingin. Kebanyakan Pinguin
+        hidup di Kutub yaitu Antartika, Argentina, Australia dll. Tapi Pinguin lainnya
+        juga hidup di daerah Tropis seperti di Indonesia.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -11509,6 +11581,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: d070aa03df173154d9a9f98f2a3ecdb7,
         type: 3}
+    - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Daging
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Walaupun tidak bisa terbang, aku termasuk hewan Aves, yaitu sejenis hewan
+        burung. Itu sebabnya aku memiliki tubuh seperti burung yang bersayap. Biasanya
+        kami hidup berkelompok, dan itu berguna untuk menghangatkan tubuh kami.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11548,6 +11632,33 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Penguin...\r\nBanyak yang bisa kamu kenal dari aku loh.
+        Kamu ingin tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Salah. Aku tidak suka buah-buahan ataupun tumbuh-tumbuhan. Makananku
+        adalah hewan laut seperti ikan, udang, cumi, dan lain-lain yang bisa ku ambil
+        dengan paruhku.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Benar. Aku suka memakan daging. Makananku adalah hewan laut seperti ikan,
+        udang, cumi, dan lain-lain yang bisa ku ambil dengan paruhku. Aku tidak suka
+        buah atau tumbuhan karena tidak memiliki gigi untuk mengunyah.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku memiliki mulut yang disebut paruh, paruh ku ini cukup panjang juga.
+        Aku berkembang biak dengan cara bertelur, dan tugas untuk mengerami telur
+        adalah penguin jantan.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
@@ -11919,6 +12030,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764494295451, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Tumbuhan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764551042380, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku adalah beruang yang tinggal di tempat bersuhu rendah yang dingin.
+        Warna kulitku sebenarnya adalah hitam, dan buluku bersifat transparan dan
+        memantulkan cahaya. Itu yang menyebabkan buluku terlihat putih.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11948,6 +12071,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Kalau kalian ingin mencari aku, kalian dapat menemukanku di es laut Arktik
+        -  sepanjang Kanada, Greenland, Islandia, Jepang, Norwegia, Rusia, dan Amerika
+        Serikat.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -12050,6 +12180,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: d070aa03df173154d9a9f98f2a3ecdb7,
         type: 3}
+    - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Daging
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Tetapi bagi kaum betina, mereka suka hidup secara berkelompok. Kami juga
+        suka hidup secara berpindah-pindah tempat. Aku memiliki kemampuan berenang
+        yang luar biasa, aku bisa berenang sejauh 600km dalam sekali jalan.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -12079,6 +12221,33 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Beruang Kutub...\r\nBanyak yang bisa kamu kenal dari aku
+        loh. Kamu ingin tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Salah. Aku bukanlah hewan herbivora. Aku suka berburu untuk bertahan
+        hidup, makanan favoritku adalah ikan dan anjing laut. Kami sabar menunggu
+        anjing laut untuk naik kedaratan, lalu kami menerkamnya.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Benar ! Aku adalah hewan karnivora. Aku suka berburu untuk bertahan hidup,
+        makanan favoritku adalah ikan dan anjing laut. Kami sabar menunggu anjing
+        laut untuk naik kedaratan, lalu kami menerkamnya.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Buluku yang seperti ini juga dapat aku gunakan untuk kamuflase saat berburu.
+        Tubuhku yang sangat besar ini memiliki berat sekitar 700KG-800KG dan panjangku
+        sekitar 3 meter. Kami hidup secara individual.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
@@ -12560,6 +12729,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3081732764551042380, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Haloo\u2026 Aku adalah Rusa si hewan mamalia. Warna kulitku adalah coklat
+        gelap. Tinggiku bisa mencapai 1 \u2013 2 meter. Dengan sepasang kaki depan
+        dan belakang yang aku miliki, aku dapat berlari dengan kencang."
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732764564762064, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -12589,6 +12765,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764701529958, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku pertama kali ditemukan di Eropa kemudian aku dibawa ke Selandia Baru.
+        Aku dapat hidup di hutan tropis dan beberapa temanku dapat hidup di kutub
+        yang memiliki salju yang sangat dingin sekali.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764724148140, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -12691,6 +12874,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: d070aa03df173154d9a9f98f2a3ecdb7,
         type: 3}
+    - target: {fileID: 3081732764964482739, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Tumbuhan
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Oh ya, ditelingaku ini memiliki otot sehingga aku bisa menggerakkan telingaku.
+        Aku dan teman-temanku suka hidup berkelompok. Gigi yang kumiliki ini tidak
+        tajam dan indra penciumanku ini sangat tajam. Oh ya, ditelingaku ini.
+      objectReference: {fileID: 0}
     - target: {fileID: 3081732765698190226, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -12720,6 +12915,33 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765876107222, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Rusa...\r\nBanyak yang bisa kamu kenal dari aku loh. Kamu
+        ingin tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732765922310935, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Jawaban kamu salah. Aku adalah hewan herbivora yaitu pemakan tumbuhan.
+        Aku suka makan buah-buahan, sayuran seperti wortel, sawi, dan lainnya. Selain
+        itu aku juga suka biji-bijian.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Yap. Benar ! Aku adalah hewan herbivora yaitu pemakan tumbuhan. Aku suka
+        makan buah-buahan, sayuran seperti wortel, sawi, dan lainnya. Selain itu aku
+        juga suka biji-bijian.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
+        type: 3}
+      propertyPath: m_text
+      value: Aku juga memiliki tanduk yang besar dan bercabang sehingga terlihat gagah.
+        Untuk rusa betina juga mempunyai tanduk, tetapi tidak sebesar milikku. Aku
+        memiliki telinga yang berbentuk runcing ke atas.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
@@ -13604,6 +13826,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 984843976}
     m_Modifications:
+    - target: {fileID: 2323288314456828534, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: Keduanya benar, walaupun aku hewan karnivora yang suka memakan daging,
+        aku juga bisa memakan sayuran dan buah-buah an. Namun aku tidak suka beberapa
+        buah seperti anggur karena dapat membuatku sakit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288314468082343, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: Aku tidak suka di tempat yang sangat panas. Aku bisa tumbuh besar hingga
+        tinggku mencapai 70cm dan berat 80kg. Walaupun tubuhku sangat besar, aku sangat
+        ramah dan akrab kepada manusia.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288314490936977, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: Keduanya benar, walaupun aku hewan karnivora yang suka memakan daging,
+        aku juga bisa memakan sayuran dan buah-buah an. Namun aku tidak suka beberapa
+        buah seperti anggur karena dapat membuatku sakit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288314621022800, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo... namaku Anjing Saint Bernard...\r\nBanyak yang bisa kamu kenal
+        dari aku loh. Kamu ingin tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
     - target: {fileID: 2323288314715049492, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -13874,6 +14123,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: papanAnjing
       objectReference: {fileID: 0}
+    - target: {fileID: 2323288315441493113, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: 'Aku juga dikenal sebagai anjing yang sabar, baik, lemah lembut, ramah,
+        kuat, pandai, dan dapat dipercaya. Aku mempunyai bulu yang lebat dan halus
+        yang berwarna putih dan coklat muda. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288315447774005, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: Tumbuhan
+      objectReference: {fileID: 0}
     - target: {fileID: 2323288315500961411, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
       propertyPath: m_Sprite
@@ -13945,6 +14206,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 984843980}
+    - target: {fileID: 2323288315727508192, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: Tempat asalku berada di tempat yang beriklim dingin di Pegunungan Alpen
+        di Eropa. Aku suka ditempat dingin, karena jika aku terkena terik matahari
+        yang panas, aku akan mudah kelelahan dan lemas.
+      objectReference: {fileID: 0}
     - target: {fileID: 2323288315755221546, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -13995,6 +14263,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 984843980}
+    - target: {fileID: 2323288315946086602, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: Aku anjing yang dikenal sebagai anjing penyelamat di tempat bersalju.
+        Aku memiliki daya tahan yang kuat terhadap suhu yang rendah dan cuaca ekstrem
+        karena fisikku yang kuat.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d152e6aec7a095b46a95005576b67dac, type: 3}
 --- !u!1001 &1821381638
