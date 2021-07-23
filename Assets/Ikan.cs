@@ -34,33 +34,33 @@ public class Ikan : MonoBehaviour
         Vector3 randomPos = center + new Vector3(UnityEngine.Random.Range(-size.x / 2, size.x / 2), 
             UnityEngine.Random.Range(-size.y / 2, size.y / 2), 
             UnityEngine.Random.Range(-size.z / 2, size.z / 2));
-
-        GameObject objeckSpawn = new GameObject();
+        
         switch (Random.Range(0,2))
         {
             case 0 :
                 if (totBomb.Count < 5)
                 {
-                    objeckSpawn = Instantiate(bombs, randomPos, Quaternion.identity);
-                    objeckSpawn.tag = "Bomb";
-                    objeckSpawn.SetActive(true);
-                    totBomb.Add(objeckSpawn);
+                    GameObject gobjeckSpawn = Instantiate(bombs, randomPos, Quaternion.identity);
+                    gobjeckSpawn.tag = "Bomb";
+                    gobjeckSpawn.SetActive(true);
+                    totBomb.Add(gobjeckSpawn);
                 }
                 else
                 {
-                    objeckSpawn = Instantiate(ikans, randomPos, Quaternion.identity);
-                    objeckSpawn.tag = "Ikan";
-                    objeckSpawn.SetActive(true);
-                    totIkan.Add(objeckSpawn);
+                    
+                    GameObject iobjeckSpawn = Instantiate(ikans, randomPos, Quaternion.identity);
+                    iobjeckSpawn.tag = "Ikan";
+                    iobjeckSpawn.SetActive(true);
+                    totIkan.Add(iobjeckSpawn);
                 }
 
                 break;
             
             case 1 :
-                objeckSpawn= Instantiate(ikans, randomPos, Quaternion.identity);
-                objeckSpawn.tag = "Ikan";
-                objeckSpawn.SetActive(true);
-                totIkan.Add(objeckSpawn);
+                GameObject iiobjeckSpawn = Instantiate(ikans, randomPos, Quaternion.identity);
+                iiobjeckSpawn.tag = "Ikan";
+                iiobjeckSpawn.SetActive(true);
+                totIkan.Add(iiobjeckSpawn);
                 
                 break;
         }
