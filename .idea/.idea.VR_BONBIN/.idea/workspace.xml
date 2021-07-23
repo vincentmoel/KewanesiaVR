@@ -3,16 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low_poly_styled_rocks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame3Movement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame3Movement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/TerrainData_24b918ae-80cd-41e3-ac8a-279a38fa5fcf.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/TerrainData_24b918ae-80cd-41e3-ac8a-279a38fa5fcf.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_5d660430-7caa-4fce-a1ba-691d0265b70c.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_5d660430-7caa-4fce-a1ba-691d0265b70c.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/GoogleVR/GVRVideoPlayer.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Addons/GoogleVR/Scripts/InstantPreview/InstantPreview.apk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ikan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ikan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Free Vegetation Pack/Prefabs/Big Rock 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Free Vegetation Pack/Prefabs/Big Rock 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/TerrainData_380d7f8b-636a-41dd-be41-664bbad6fe10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/TerrainData_380d7f8b-636a-41dd-be41-664bbad6fe10.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/TerrainData_65bbaada-d367-448f-b7a7-9ac9efc899f2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/TerrainData_65bbaada-d367-448f-b7a7-9ac9efc899f2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/TerrainData_68c41f0a-bee8-43dc-a912-45a5527fc0fc.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/TerrainData_68c41f0a-bee8-43dc-a912-45a5527fc0fc.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/TerrainData_cb39bdfc-fd5d-48cf-85b4-ee14c89708a2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/TerrainData_cb39bdfc-fd5d-48cf-85b4-ee14c89708a2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_f7c3af84-b7a6-4a4b-9bf4-ef16882e5eab.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_f7c3af84-b7a6-4a4b-9bf4-ef16882e5eab.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/Ikan.cs" />
       <option value="$PROJECT_DIR$/Assets/Ikan.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sImG9Wfnx3w19PmpVdvNstIb4T" />
@@ -117,6 +119,7 @@
       <workItem from="1626771019200" duration="4172000" />
       <workItem from="1626784397729" duration="5577000" />
       <workItem from="1626964822662" duration="4899000" />
+      <workItem from="1627023885285" duration="5795000" />
     </task>
     <servers />
   </component>
