@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="" />
+    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low_poly_styled_rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGame3Movement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGame3Movement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/TerrainData_24b918ae-80cd-41e3-ac8a-279a38fa5fcf.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/TerrainData_24b918ae-80cd-41e3-ac8a-279a38fa5fcf.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_5d660430-7caa-4fce-a1ba-691d0265b70c.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/Terrain_0_0_5d660430-7caa-4fce-a1ba-691d0265b70c.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +31,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.terrain-tools@2.0.2-preview/Editor/TerrainTools/PaintTextureTool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B80225B3-57C6-4115-895F-5655E67DB547/6d/c07bc855/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.terrain-tools@2.0.2-preview/Editor/TerrainTools/PaintTextureTool.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -32,10 +43,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ButtonSound.cs" />
       <option value="$PROJECT_DIR$/Assets/AnimalRunningScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DataHewanScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
       <option value="$PROJECT_DIR$/Assets/MiniGame3Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AnimalColliderToPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PapanRotation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/Ikan.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ikan.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sImG9Wfnx3w19PmpVdvNstIb4T" />
@@ -49,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -103,6 +116,7 @@
       <workItem from="1626703675667" duration="3430000" />
       <workItem from="1626771019200" duration="4172000" />
       <workItem from="1626784397729" duration="5577000" />
+      <workItem from="1626964822662" duration="4899000" />
     </task>
     <servers />
   </component>

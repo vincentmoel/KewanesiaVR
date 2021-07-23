@@ -12,7 +12,10 @@ public class MinigameMonyet : MonoBehaviour
     public AudioClip finishSound;
     public AudioClip bgmSound;
     public AudioClip gameSound;
+    public AudioClip animalSound;
     public AudioSource bgmSource;
+
+    public AudioSource animalSource;
 
     public List<GameObject> listcats;
 
@@ -26,7 +29,7 @@ public class MinigameMonyet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
     
     private void OnTriggerEnter(Collider other)
@@ -34,7 +37,11 @@ public class MinigameMonyet : MonoBehaviour
 
         if (other.gameObject.CompareTag("Cat"))
         {
+            animalSource.clip = animalSound;
+            animalSource.Play();
+            
             other.gameObject.SetActive(false);
+            
             count++;
             textCounter.text = "Cat : " + count.ToString() + "/5";
 
