@@ -6,8 +6,7 @@ public class PapanRotation : MonoBehaviour
 {
 
     public Transform player;
-    public float rotateKurangDari;
-    public float rotateLebihDari;
+    public float papanHadapAwal;
 
     public float minY;
     public float maxY;
@@ -20,8 +19,6 @@ public class PapanRotation : MonoBehaviour
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>();
-        rotateLebihDari = transform.rotation.eulerAngles.y;
-        rotateKurangDari = transform.rotation.eulerAngles.y + 180;
 
         spawnMin = transform.localPosition;
     }
@@ -29,23 +26,30 @@ public class PapanRotation : MonoBehaviour
     void Update()
     {
         spawn = GetComponentInParent<AnimalColliderToPlayer>().isPlayerNear;
-        PapanRotate();
         PapanAnimate();
     }
 
 
     void PapanRotate()
     {
-        if (transform.position.z < player.position.z)
-        {
-            transform.rotation = Quaternion.Euler(transform.rotation.x, rotateKurangDari, transform.rotation.z);
-            
 
-        }
-        else
-        {
-            transform.rotation = Quaternion.Euler(transform.rotation.x, rotateLebihDari, transform.rotation.z);
-        }
+        //if (!spawn)
+        //Debug.Log("Z PLAYEr :" +  player.position.z);
+        //Debug.Log("Z PAPAN :" + transform.position.z);
+        //transform.localRotation = Quaternion.Euler(0, papanHadapAwal, 0);
+        //if (transform.position.z < player.position.z)
+        //{
+        //    transform.localRotation = Quaternion.Euler(0, papanHadapAwal, 0);
+        //    Debug.Log("Muter 1");
+
+        //}
+        //else
+        //{
+        //    transform.localRotation = Quaternion.Euler(0, papanHadapAwal+180, 0);
+
+        //}
+
+        transform.localRotation = Quaternion.Euler(0, transform.localRotation.eulerAngles.y + 180, 0);
     }
 
     void PapanAnimate()
@@ -59,6 +63,17 @@ public class PapanRotation : MonoBehaviour
         else
         {
             transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMin, Time.deltaTime * speed);
+        }
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (!spawn)
+                return;
+            PapanRotate();
         }
     }
 }

@@ -62,6 +62,9 @@ public class AnimalColliderToPlayer : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             papan.ResetTampilanPapan();
+            obj_papan.transform.LookAt(other.transform);
+            obj_papan.transform.localRotation = Quaternion.Euler(0, obj_papan.transform.localRotation.eulerAngles.y-180, 0);
+            obj_papan.GetComponent<PapanRotation>().papanHadapAwal = obj_papan.transform.localRotation.eulerAngles.y - 180;
             isPlayerNear = true;
             closePapan = false;
         }
