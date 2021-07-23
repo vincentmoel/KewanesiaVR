@@ -50,6 +50,7 @@ public class AnimalColliderToPlayer : MonoBehaviour
     public GameObject btn_maingames;
     private void Awake()
     {
+        PlayerPrefs.DeleteAll();
         if (animal_data.getStatusHewan())
         {
             TurnOnAllButton();
