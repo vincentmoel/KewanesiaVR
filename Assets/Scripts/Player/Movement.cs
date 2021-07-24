@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public Transform vrCamera;
-    public float speed = 3.0f;
+    public float speed = 5.0f;
     public float toggleAngle = 30.0f;
     public bool move;
     private CharacterController cc;
@@ -14,6 +14,7 @@ public class Movement : MonoBehaviour
     // Untuk mengambil object Character Controller
     void Start() {
         cc = GetComponent<CharacterController>();
+        speed *= GlobalVar.GetSpeedMovement();
     }
 
     void Update() {
