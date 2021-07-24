@@ -19,7 +19,7 @@ public class AnimalColliderToPlayer : MonoBehaviour
         public void ResetTampilanPapan()
         {
             papanEvent.Invoke();
-            
+
         }
     }
     public PapanSetting papan;
@@ -27,13 +27,12 @@ public class AnimalColliderToPlayer : MonoBehaviour
     //data hewan
     public HewanScriptable animal_data;
 
-
+    [Header("Pengecekan player")]
     //public Animator anim_papan;
     public bool isPlayerNear;
     public bool closePapan;
 
-    public GameObject confetyPrefab;
-    public GameObject obj_papan;
+    [Header("Pengecekan status sudah terisi")]
     // pengecekan status yang sudah keisi
     public bool ciri;
     public bool tempatTinggal;
@@ -44,10 +43,19 @@ public class AnimalColliderToPlayer : MonoBehaviour
     public GameObject obj_tempatTinggalDone;
     public GameObject obj_makananDone;
     public GameObject obj_gambarDone;
+    public GameObject confetyPrefab;
+    public GameObject obj_papan;
 
 
+    [Header("Setting Mini Game kalau ada")]
     public bool miniGame;
+    public int minigameKe = 1;
+    public GameObject canvasLoadingMiniGame;
     public GameObject btn_maingames;
+    public GameObject referenceKeAnimal;
+    public GameObject refrenceKanvasMiniGame;
+    public GameObject buttonBack; // untuk mengehide button back saat masuk ke minigame pertama kali
+
     private void Awake()
     {
         PlayerPrefs.DeleteAll();
@@ -63,7 +71,7 @@ public class AnimalColliderToPlayer : MonoBehaviour
         {
             papan.ResetTampilanPapan();
             obj_papan.transform.LookAt(other.transform);
-            obj_papan.transform.localRotation = Quaternion.Euler(0, obj_papan.transform.localRotation.eulerAngles.y-180, 0);
+            obj_papan.transform.localRotation = Quaternion.Euler(0, obj_papan.transform.localRotation.eulerAngles.y - 180, 0);
             obj_papan.GetComponent<PapanRotation>().papanHadapAwal = obj_papan.transform.localRotation.eulerAngles.y - 180;
             isPlayerNear = true;
             closePapan = false;
@@ -145,9 +153,9 @@ public class AnimalColliderToPlayer : MonoBehaviour
         checkStatus[3] = gambar;
 
         bool allClear = true;
-        foreach(var a in checkStatus)
+        foreach (var a in checkStatus)
         {
-            if(!a)
+            if (!a)
             {
                 allClear = false;
                 break;
@@ -158,11 +166,12 @@ public class AnimalColliderToPlayer : MonoBehaviour
         {
             animal_data.ActivedHewan(1);
             animal_data.SetStatusHewan(true);
-            if (miniGame)
+            if (miniGame) // kalau ada minigame
+            {
                 btn_maingames.SetActive(true);
-                
-            
-
+                buttonBack.SetActive(false);
+                MoveToMiniGame();
+            }
         }
     }
 
@@ -183,4 +192,14 @@ public class AnimalColliderToPlayer : MonoBehaviour
             btn_maingames.SetActive(true);
 
     }
+
+    public void MoveToMiniGame()
+    {
+        //pindahkan player ke start posisi minigame
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().enabled = false;
+        canvasLoadingMiniGame.SetActive(true);
+        referenceKeAnimal.SetActive(false);
+        refrenceKanvasMiniGame.SetActive(true);
+    }
+
 }

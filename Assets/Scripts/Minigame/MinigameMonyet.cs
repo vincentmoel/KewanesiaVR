@@ -84,7 +84,9 @@ public class MinigameMonyet : MonoBehaviour
         textCounter.text = "Cat : " + count.ToString() + "/5";
         textCounter.alignment = TextAlignmentOptions.TopLeft;
         textCounter.fontSize = 32;
-        
+
+        GetComponent<Movement>().enabled = true;
+
         bgmSource.Stop();
         bgmSource.clip = gameSound;
         bgmSource.Play();

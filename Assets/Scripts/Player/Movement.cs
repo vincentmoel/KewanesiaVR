@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
             move = true;
         } else {
             move = false;
-        }
+        } 
 
         // Saat jalan bernilai betul maka player akan bergerak maju
         if (move) {
