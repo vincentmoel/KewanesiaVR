@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ikan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ikan.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low_poly_styled_rocks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,7 @@
       <workItem from="1626964822662" duration="4899000" />
       <workItem from="1627023885285" duration="5795000" />
       <workItem from="1627048658092" duration="629000" />
-      <workItem from="1627051704996" duration="3813000" />
+      <workItem from="1627051704996" duration="4855000" />
     </task>
     <servers />
   </component>

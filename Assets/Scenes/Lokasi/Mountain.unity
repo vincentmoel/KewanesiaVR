@@ -5,7 +5,7 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 4
+    smallestOccluder: 3
     smallestHole: 0.25
     backfaceThreshold: 70
   m_SceneGUID: 365487adbdeb66d4fb90ee9d6e1830e4
@@ -34,7 +34,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 64
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -771,12 +771,22 @@ PrefabInstance:
     - target: {fileID: 6654914301044783217, guid: 0483252ed9557154396107fa4a623dec,
         type: 3}
       propertyPath: far clip plane
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6654914301044783217, guid: 0483252ed9557154396107fa4a623dec,
         type: 3}
       propertyPath: m_Depth
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654914301044783217, guid: 0483252ed9557154396107fa4a623dec,
+        type: 3}
+      propertyPath: m_HDR
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654914301044783217, guid: 0483252ed9557154396107fa4a623dec,
+        type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6654914301044783222, guid: 0483252ed9557154396107fa4a623dec,
         type: 3}
@@ -1256,9 +1266,6 @@ MonoBehaviour:
   animal_data: {fileID: 11400000, guid: f3609c8918b81c946b54efd53365940f, type: 2}
   isPlayerNear: 0
   closePapan: 0
-  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
-    type: 3}
-  obj_papan: {fileID: 1367471176}
   ciri: 0
   tempatTinggal: 0
   makanan: 0
@@ -1267,8 +1274,16 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 1367471173}
   obj_makananDone: {fileID: 1367471174}
   obj_gambarDone: {fileID: 1367471172}
+  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
+    type: 3}
+  obj_papan: {fileID: 1367471176}
   miniGame: 0
+  minigameKe: 1
+  canvasLoadingMiniGame: {fileID: 0}
   btn_maingames: {fileID: 0}
+  referenceKeAnimal: {fileID: 0}
+  refrenceKanvasMiniGame: {fileID: 0}
+  buttonBack: {fileID: 0}
 --- !u!1001 &337071780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3255,9 +3270,6 @@ MonoBehaviour:
   animal_data: {fileID: 11400000, guid: 06b6bb2a4b76fe34ba0be93b55abf965, type: 2}
   isPlayerNear: 0
   closePapan: 0
-  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
-    type: 3}
-  obj_papan: {fileID: 1521600023}
   ciri: 0
   tempatTinggal: 0
   makanan: 0
@@ -3266,8 +3278,16 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 1521600018}
   obj_makananDone: {fileID: 1521600019}
   obj_gambarDone: {fileID: 1521600017}
+  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
+    type: 3}
+  obj_papan: {fileID: 1521600023}
   miniGame: 0
+  minigameKe: 1
+  canvasLoadingMiniGame: {fileID: 0}
   btn_maingames: {fileID: 0}
+  referenceKeAnimal: {fileID: 0}
+  refrenceKanvasMiniGame: {fileID: 0}
+  buttonBack: {fileID: 0}
 --- !u!4 &751272765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4651486748286556, guid: b5423645bcfb34c0e97178ade782aae4,
@@ -9618,9 +9638,6 @@ MonoBehaviour:
   animal_data: {fileID: 11400000, guid: 7b3cb43b6f2a40348a5a27585a95f4e5, type: 2}
   isPlayerNear: 0
   closePapan: 0
-  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
-    type: 3}
-  obj_papan: {fileID: 466049238}
   ciri: 0
   tempatTinggal: 0
   makanan: 0
@@ -9629,8 +9646,16 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 1079943987}
   obj_makananDone: {fileID: 2035928956}
   obj_gambarDone: {fileID: 672454960}
+  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
+    type: 3}
+  obj_papan: {fileID: 466049238}
   miniGame: 0
+  minigameKe: 1
+  canvasLoadingMiniGame: {fileID: 0}
   btn_maingames: {fileID: 0}
+  referenceKeAnimal: {fileID: 0}
+  refrenceKanvasMiniGame: {fileID: 0}
+  buttonBack: {fileID: 0}
 --- !u!1001 &974370897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9884,9 +9909,6 @@ MonoBehaviour:
   animal_data: {fileID: 11400000, guid: 2a586cbebb718db4d92d23b4f8505267, type: 2}
   isPlayerNear: 0
   closePapan: 0
-  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
-    type: 3}
-  obj_papan: {fileID: 828690334}
   ciri: 0
   tempatTinggal: 0
   makanan: 0
@@ -9895,8 +9917,16 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 76703032}
   obj_makananDone: {fileID: 1635395390}
   obj_gambarDone: {fileID: 2127460872}
+  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
+    type: 3}
+  obj_papan: {fileID: 828690334}
   miniGame: 1
+  minigameKe: 1
+  canvasLoadingMiniGame: {fileID: 0}
   btn_maingames: {fileID: 1546512654}
+  referenceKeAnimal: {fileID: 0}
+  refrenceKanvasMiniGame: {fileID: 0}
+  buttonBack: {fileID: 0}
 --- !u!1001 &1034658982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16227,9 +16257,6 @@ MonoBehaviour:
   animal_data: {fileID: 11400000, guid: a11cf8b6298d9a343a41415772d50fb0, type: 2}
   isPlayerNear: 0
   closePapan: 0
-  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
-    type: 3}
-  obj_papan: {fileID: 794085356}
   ciri: 0
   tempatTinggal: 0
   makanan: 0
@@ -16238,8 +16265,16 @@ MonoBehaviour:
   obj_tempatTinggalDone: {fileID: 794085351}
   obj_makananDone: {fileID: 794085352}
   obj_gambarDone: {fileID: 794085350}
+  confetyPrefab: {fileID: 5266712181392718854, guid: bb9f4fcd515e886449bb9bd605de54fd,
+    type: 3}
+  obj_papan: {fileID: 794085356}
   miniGame: 0
+  minigameKe: 1
+  canvasLoadingMiniGame: {fileID: 0}
   btn_maingames: {fileID: 0}
+  referenceKeAnimal: {fileID: 0}
+  refrenceKanvasMiniGame: {fileID: 0}
+  buttonBack: {fileID: 0}
 --- !u!4 &2111778126 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4731905574177252, guid: 5b5ea93c44ed4437781305935ec54576,
