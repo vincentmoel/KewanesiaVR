@@ -25,6 +25,8 @@ public class MiniGame3Movement : MonoBehaviour
     public Transform startPoint;
     public int time;
 
+    public TextMeshProUGUI txtHighScore;
+
     void Start()
     {
         sharkAnim.SetBool("isSwimming", true);
@@ -37,10 +39,10 @@ public class MiniGame3Movement : MonoBehaviour
         if (!ikan.state)
         {
             return;
-        } 
-        
+        }
+
         Quaternion tes = transform.localRotation;
-        
+
         transform.Translate(Vector3.forward * (speed * Time.deltaTime));
     }
 
@@ -61,11 +63,11 @@ public class MiniGame3Movement : MonoBehaviour
             score += 100;
             textCounter.text = "Score : " + score.ToString();
         }
-        
+
         if (other.CompareTag("Bomb"))
         {
             ikan.totBomb.Remove(other.gameObject);
-            GetComponent<Rigidbody>().AddExplosionForce(10,transform.position,10);
+            GetComponent<Rigidbody>().AddExplosionForce(10, transform.position, 10);
             feedSource.clip = bombSound;
             feedSource.Play();
             Destroy(other.gameObject);
@@ -100,14 +102,13 @@ public class MiniGame3Movement : MonoBehaviour
         {
             Destroy(i);
         }
-        
+
         ikan.totIkan.Clear();
         ikan.totBomb.Clear();
-        
-        minigeym.SetActive(false);
-        pleyer.SetActive(true);
 
-        SceneManager.LoadScene("Laut");
+
+        HighScore();
+       StartCoroutine(loadScene());
     }
     private IEnumerator Timer()
     {
@@ -126,4 +127,24 @@ public class MiniGame3Movement : MonoBehaviour
         }
     }
 
+
+    //tampil high score
+    public void HighScore()
+    {
+        txtHighScore.gameObject.SetActive(true);
+
+        if (score >= GlobalVar.GetHighScoreHiu())
+        {
+            //simpan highscore
+            GlobalVar.SetHighScoreHiu(score);
+        }
+        txtHighScore.text = "SCORE : " + score.ToString() + "\nHIGHSCORE : " + GlobalVar.GetHighScoreHiu().ToString();
+
+    }
+
+    IEnumerator loadScene()
+    {
+        yield return new WaitForSeconds(4f);
+        SceneManager.LoadSceneAsync("LoadingScene");
+    }
 }

@@ -36,4 +36,15 @@ public class GlobalVar
         return PlayerPrefs.GetFloat("SpeedMovement", 1);
     }
 
+    //save load highscore hiu
+    public static void SetHighScoreHiu(int value)
+    {
+        PlayerPrefs.SetInt("HighScoreHiu", value);
+    }
+
+    public static int GetHighScoreHiu()
+    {
+        return PlayerPrefs.GetInt("HighScoreHiu", 0);
+    }
+
 }

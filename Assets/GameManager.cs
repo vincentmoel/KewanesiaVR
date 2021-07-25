@@ -12,15 +12,31 @@ public class GameManager : MonoBehaviour
 
     public Image imgLoading;
 
+    public Image backgroundImg;
+    public Sprite[] bg_sprites;
+
     private void Awake()
     {
+
+        switch (NamaScene)
+        {
+            case "Hutan":
+                backgroundImg.sprite = bg_sprites[0];
+                break;
+            case "Laut":
+                backgroundImg.sprite = bg_sprites[1];
+                break;
+            case "Mountain":
+                backgroundImg.sprite = bg_sprites[2];
+                break;
+        }
 
         LoadGame();
     }
 
     private void Update()
     {
-       
+
     }
 
     /// <summary>
@@ -28,7 +44,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void LoadGame()
     {
-        
+
         StartCoroutine(GetSceneLoadProgress());
     }
 

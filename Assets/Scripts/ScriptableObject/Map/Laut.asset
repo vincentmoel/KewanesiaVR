@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   namaMap: Laut
   listHewan:
-  - {fileID: 11400000, guid: 1291461a7ffbd224f8c6efb66d2167df, type: 2}
+  - {fileID: 11400000, guid: 7726b3f8495bd3b459737f4850d7bd52, type: 2}
+  - {fileID: 11400000, guid: 6bb389c088771614da3080f4e7e3ab8d, type: 2}
+  - {fileID: 11400000, guid: f45970ae364b3d44eb2684a0e3f26090, type: 2}
   - {fileID: 11400000, guid: 1291461a7ffbd224f8c6efb66d2167df, type: 2}
   statusMap: 0

@@ -20,7 +20,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: 75583f1fd4a4b27468dbf3efa5abb83d
-  - enabled: 1
-    path: Assets/Scenes/TesScene.unity
-    guid: 48c039c3c2ca4cc4bbcc953ef48d0d6a
   m_configObjects: {}
