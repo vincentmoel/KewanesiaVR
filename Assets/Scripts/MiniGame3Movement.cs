@@ -27,6 +27,8 @@ public class MiniGame3Movement : MonoBehaviour
 
     public TextMeshProUGUI txtHighScore;
 
+    public GameObject prefab_explosion;
+
     void Start()
     {
         sharkAnim.SetBool("isSwimming", true);
@@ -41,9 +43,10 @@ public class MiniGame3Movement : MonoBehaviour
             return;
         }
 
-        Quaternion tes = transform.localRotation;
 
         transform.Translate(Vector3.forward * (speed * Time.deltaTime));
+
+        //rb.velocity = Vector3.forward * speed;
     }
 
     private void LateUpdate()
@@ -66,11 +69,14 @@ public class MiniGame3Movement : MonoBehaviour
 
         if (other.CompareTag("Bomb"))
         {
+            rb.AddExplosionForce(10000, other.transform.localPosition, 10000);
             ikan.totBomb.Remove(other.gameObject);
             GetComponent<Rigidbody>().AddExplosionForce(10, transform.position, 10);
             feedSource.clip = bombSound;
             feedSource.Play();
+            GameObject particle = Instantiate(prefab_explosion,other.transform.position,Quaternion.identity);
             Destroy(other.gameObject);
+            Destroy(particle, 5f);
             score -= 100;
             textCounter.text = "Score : " + score.ToString();
         }
@@ -108,7 +114,7 @@ public class MiniGame3Movement : MonoBehaviour
 
 
         HighScore();
-       StartCoroutine(loadScene());
+        StartCoroutine(loadScene());
     }
     private IEnumerator Timer()
     {

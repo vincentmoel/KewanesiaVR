@@ -13,8 +13,20 @@ public class GameManager : MonoBehaviour
     public Image imgLoading;
 
     public Image backgroundImg;
+    public Image fillImage;
     public Sprite[] bg_sprites;
+    public Sprite[] fill_sprites;
 
+    public GameObject[] bg_obj;
+
+
+    public void HideAllBg()
+    {
+        foreach(var a in bg_obj)
+        {
+            a.SetActive(false);
+        }
+    }
     private void Awake()
     {
 
@@ -22,12 +34,21 @@ public class GameManager : MonoBehaviour
         {
             case "Hutan":
                 backgroundImg.sprite = bg_sprites[0];
+                fillImage.sprite = fill_sprites[0];
+                HideAllBg();
+                bg_obj[0].SetActive(true);
                 break;
             case "Laut":
                 backgroundImg.sprite = bg_sprites[1];
+                fillImage.sprite = fill_sprites[1];
+                HideAllBg();
+                bg_obj[1].SetActive(true);
                 break;
             case "Mountain":
                 backgroundImg.sprite = bg_sprites[2];
+                fillImage.sprite = fill_sprites[2];
+                HideAllBg();
+                bg_obj[2].SetActive(true);
                 break;
         }
 
@@ -62,5 +83,6 @@ public class GameManager : MonoBehaviour
 
         SceneManager.UnloadScene("LoadingScene");
     }
+
 
 }

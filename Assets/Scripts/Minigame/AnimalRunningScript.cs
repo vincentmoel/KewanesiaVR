@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using System;
+using System.Linq;
 
 public class AnimalRunningScript : MonoBehaviour
 {
@@ -13,24 +15,26 @@ public class AnimalRunningScript : MonoBehaviour
 
     public Animator anim;
 
+    public Transform[] destinations;
+
     public void Update()
     {
         if (isPlayerNear)
         {
-            float distance = Vector3.Distance(playerPos.position, transform.position); //To get player position and this object position
+            //float distance = Vector3.Distance(playerPos.position, transform.position); //To get player position and this object position
 
-            //make AI run away
-            if(distance < 10f)
-            {
-                Vector3 dirToPlayer = transform.position - playerPos.position; //To get a new position for target
-                Vector3 newpos = transform.position + dirToPlayer; //To make a new position based on dirToPlayer distance
-                agent.SetDestination(newpos); //Move the object
-            }
+            ////make AI run away
+            //if(distance < 10f)
+            //{
+            //    Vector3 dirToPlayer = transform.position - playerPos.position; //To get a new position for target
+            //    Vector3 newpos = transform.position + dirToPlayer; //To make a new position based on dirToPlayer distance
+            //    agent.SetDestination(newpos); //Move the object
+            //}
         }
 
         if (!isPlayerNear)
         {
-            if(transform.position == agent.destination)
+            if (transform.position == agent.destination)
             {
                 anim.SetBool("isRunning", false);
             }
@@ -40,7 +44,7 @@ public class AnimalRunningScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) //To check if the player is near or not
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             isPlayerNear = true;
             anim.SetBool("isRunning", true);
@@ -62,5 +66,22 @@ public class AnimalRunningScript : MonoBehaviour
         anim.SetBool("isRunning", false);
     }
 
+
+
+    public void SetDestination()
+    {
+        //cari lokasi terdekat terlebih dahulu
+        List<Transform> urutanDistances = new List<Transform>();
+        List<float> _distanecsTerdekat = new List<float>();
+        foreach (var a in destinations)
+        {
+            _distanecsTerdekat.Add(Vector3.Distance(transform.position, a.position));
+        }
+
+        //urutan index nya
+
+
+        
+    }
 
 }

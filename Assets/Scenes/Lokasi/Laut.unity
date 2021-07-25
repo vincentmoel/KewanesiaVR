@@ -4982,6 +4982,8 @@ MonoBehaviour:
   startPoint: {fileID: 0}
   time: 60
   txtHighScore: {fileID: 1398391154}
+  prefab_explosion: {fileID: 714689480727022555, guid: 65bfb257ecb6a774a8851bdfe46db731,
+    type: 3}
 --- !u!54 &866875452
 Rigidbody:
   m_ObjectHideFlags: 0
