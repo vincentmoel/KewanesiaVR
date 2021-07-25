@@ -58,7 +58,6 @@ public class AnimalColliderToPlayer : MonoBehaviour
 
     private void Awake()
     {
-        PlayerPrefs.DeleteAll();
         if (animal_data.getStatusHewan())
         {
             TurnOnAllButton();
@@ -198,7 +197,7 @@ public class AnimalColliderToPlayer : MonoBehaviour
         //pindahkan player ke start posisi minigame
         GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().enabled = false;
         canvasLoadingMiniGame.SetActive(true);
-        referenceKeAnimal.SetActive(false);
+        //referenceKeAnimal.SetActive(false);
         refrenceKanvasMiniGame.SetActive(true);
     }
 

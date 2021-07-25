@@ -20,9 +20,12 @@ public class AnimalRunningScript : MonoBehaviour
             float distance = Vector3.Distance(playerPos.position, transform.position); //To get player position and this object position
 
             //make AI run away
-            Vector3 dirToPlayer = transform.position - playerPos.position; //To get a new position for target
-            Vector3 newpos = transform.position + dirToPlayer; //To make a new position based on dirToPlayer distance
-            agent.SetDestination(newpos); //Move the object
+            if(distance < 10f)
+            {
+                Vector3 dirToPlayer = transform.position - playerPos.position; //To get a new position for target
+                Vector3 newpos = transform.position + dirToPlayer; //To make a new position based on dirToPlayer distance
+                agent.SetDestination(newpos); //Move the object
+            }
         }
 
         if (!isPlayerNear)

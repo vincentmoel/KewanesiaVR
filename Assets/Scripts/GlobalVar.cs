@@ -11,12 +11,12 @@ public class GlobalVar
     }
     public static float GetAudioVolume()
     {
-        return PlayerPrefs.GetFloat("AudioVolume",1);
+        return PlayerPrefs.GetFloat("AudioVolume", 1);
     }
     #endregion
 
     #region Save & Load Data Hewan
-    public static void SaveDataHewan(string namaHewan,int value)
+    public static void SaveDataHewan(string namaHewan, int value)
     {
         PlayerPrefs.SetInt(namaHewan, value);
     }
@@ -26,6 +26,25 @@ public class GlobalVar
     }
     #endregion
 
+    public static void SetSpeedMovement(float value)
+    {
+        PlayerPrefs.SetFloat("SpeedMovement", value);
+    }
 
+    public static float GetSpeedMovement()
+    {
+        return PlayerPrefs.GetFloat("SpeedMovement", 1);
+    }
+
+    //save load highscore hiu
+    public static void SetHighScoreHiu(int value)
+    {
+        PlayerPrefs.SetInt("HighScoreHiu", value);
+    }
+
+    public static int GetHighScoreHiu()
+    {
+        return PlayerPrefs.GetInt("HighScoreHiu", 0);
+    }
 
 }

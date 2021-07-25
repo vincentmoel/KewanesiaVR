@@ -51,8 +51,6 @@ public class MinigameMonyet : MonoBehaviour
                 textCounter.fontSize = 100;
                 textCounter.alignment = TextAlignmentOptions.Center;
                 
-                cat.SetActive(false);
-                
                 bgmSource.Stop();
                 bgmSource.clip = finishSound;
                 bgmSource.Play();
@@ -65,6 +63,7 @@ public class MinigameMonyet : MonoBehaviour
     private IEnumerator CounterTimer()
     {
         yield return new WaitForSeconds(5);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("LoadingScene");
         cat.SetActive(false);
         animalCounter.SetActive(false);
         
@@ -117,4 +116,6 @@ public class MinigameMonyet : MonoBehaviour
         bgmSource.clip = gameSound;
         bgmSource.Play();
     }
+
+    
 }

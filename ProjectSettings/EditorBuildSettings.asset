@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lokasi/Laut.unity
     guid: 05ef4b01d3ba09943b849f4bbb0f68f2
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 75583f1fd4a4b27468dbf3efa5abb83d
   m_configObjects: {}

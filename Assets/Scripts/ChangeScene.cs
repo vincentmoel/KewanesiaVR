@@ -19,19 +19,27 @@ public class ChangeScene : MonoBehaviour
         GvrEditorEmulator.enabled = false;
         startAnim = true;
         yield return new WaitForSeconds(3.5f);
-        SceneManager.LoadScene(scene);
 
+        LoadScene();
     }
 
     // Untuk menganti scene
     public void SceneChange(string sceneName)
     {
         StartCoroutine(IeAnimasi(sceneName));
+        GameManager.NamaScene = sceneName;
     }
 
     // Keluar dari game
     public void QuitApp()
     {
         Application.Quit();
+    }
+
+    public void LoadScene()
+    {
+
+        //masuk loading screen dulu
+        SceneManager.LoadScene("LoadingScene");
     }
 }
