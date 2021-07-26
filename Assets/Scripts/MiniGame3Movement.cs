@@ -9,7 +9,7 @@ public class MiniGame3Movement : MonoBehaviour
 {
     public Transform vrCamera;
     public float speed = 10.0f;
-    public Rigidbody rb;
+    //public Rigidbody rb;
     public Ikan ikan;
     public Animator sharkAnim;
     public AudioSource feedSource;
@@ -44,15 +44,15 @@ public class MiniGame3Movement : MonoBehaviour
         }
 
 
-        transform.Translate(Vector3.forward * (speed * Time.deltaTime));
+        //transform.Translate(Vector3.forward * (speed * Time.deltaTime));
 
         //rb.velocity = Vector3.forward * speed;
     }
 
     private void LateUpdate()
     {
-        transform.localRotation = vrCamera.localRotation;
-        vrCamera.localRotation = Quaternion.Euler(0, 0, 0);
+        //transform.localRotation = vrCamera.localRotation;
+        //vrCamera.localRotation = Quaternion.Euler(0, 0, 0);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -69,7 +69,7 @@ public class MiniGame3Movement : MonoBehaviour
 
         if (other.CompareTag("Bomb"))
         {
-            rb.AddExplosionForce(10000, other.transform.localPosition, 10000);
+            //rb.AddExplosionForce(3000, other.transform.localPosition, 3000);
             ikan.totBomb.Remove(other.gameObject);
             GetComponent<Rigidbody>().AddExplosionForce(10, transform.position, 10);
             feedSource.clip = bombSound;

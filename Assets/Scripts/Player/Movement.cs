@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
     void Update() {
 
         // Ketika sudut pandangan lebih dari 30 derajat dan tidak lebih dari 90 derajat maka akan jalan
-        if (vrCamera.eulerAngles.x >= toggleAngle && vrCamera.eulerAngles.x < 90.0f) {
+        if (vrCamera.eulerAngles.x >= toggleAngle && vrCamera.eulerAngles.x < 360.0f) {
             move = true;
         } else {
             move = false;

@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/GoogleVR/GVRVideoPlayer.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Addons/GoogleVR/Scripts/InstantPreview/InstantPreview.apk.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangeScene.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/MonyetGame.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/VolumeSetting.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ButtonSound.cs" />
       <option value="$PROJECT_DIR$/Assets/AnimalRunningScript.cs" />
@@ -42,7 +42,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/Ikan.cs" />
       <option value="$PROJECT_DIR$/Assets/Ikan.cs" />
+      <option value="$PROJECT_DIR$/Assets/Shark.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sImG9Wfnx3w19PmpVdvNstIb4T" />
@@ -116,6 +118,7 @@
       <workItem from="1627051704996" duration="4855000" />
       <workItem from="1627211764135" duration="588000" />
       <workItem from="1627213864099" duration="835000" />
+      <workItem from="1627302192285" duration="7221000" />
     </task>
     <servers />
   </component>

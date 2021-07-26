@@ -4604,8 +4604,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ikans: {fileID: 965417965}
   bombs: {fileID: 279760586}
-  center: {x: 48.41, y: 7.49, z: 51.24}
-  size: {x: 43, y: 8.32, z: 49.2}
+  center: {x: 48.41, y: 6.04, z: 51.24}
+  size: {x: 43, y: 2.13, z: 49.2}
   state: 0
   totIkan: []
   totBomb: []
@@ -4931,7 +4931,7 @@ PrefabInstance:
     - target: {fileID: 7809689272941976530, guid: 0483252ed9557154396107fa4a623dec,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0483252ed9557154396107fa4a623dec, type: 3}
@@ -4967,7 +4967,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vrCamera: {fileID: 866875448}
   speed: 5
-  rb: {fileID: 866875452}
   ikan: {fileID: 819996085}
   sharkAnim: {fileID: 162089339}
   feedSource: {fileID: 270178924}
@@ -4984,22 +4983,6 @@ MonoBehaviour:
   txtHighScore: {fileID: 1398391154}
   prefab_explosion: {fileID: 714689480727022555, guid: 65bfb257ecb6a774a8851bdfe46db731,
     type: 3}
---- !u!54 &866875452
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866875449}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 10
-  m_AngularDrag: 10
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!136 &866875453
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5025,8 +5008,42 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.79, y: 1, z: 4.96}
+  m_Size: {x: 1.15, y: 1.74, z: 4.96}
   m_Center: {x: 0, y: -1.97, z: 0.87}
+--- !u!114 &866875455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866875449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e09f93b4608c016449fbc260b2bd8f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vrCamera: {fileID: 866875448}
+  speed: 7
+  toggleAngle: 0
+  move: 0
+--- !u!143 &866875456
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866875449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 6.27
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: -2.81, z: 0}
 --- !u!1001 &873727315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5134,7 +5151,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.23
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6654914302376832949, guid: 0483252ed9557154396107fa4a623dec, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0483252ed9557154396107fa4a623dec, type: 3}
 --- !u!1001 &874107207
 PrefabInstance:
@@ -20036,7 +20054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097680278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.261944, y: 3.3271937, z: -4.387871}
+  m_LocalPosition: {x: 50.261944, y: 0.72, z: -4.387871}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 819996086}
