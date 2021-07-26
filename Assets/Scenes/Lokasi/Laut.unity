@@ -5434,6 +5434,12 @@ PrefabInstance:
         laut, penyu laut, ikan kecil, gurita, kepiting, lobster, dan banyak hewan
         lagi di dalam laut yang aku makan. '
       objectReference: {fileID: 0}
+    - target: {fileID: 2323288314621022800, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Hiu...\r\nBanyak yang bisa kamu kenal dari aku. Kamu ingin
+        tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
     - target: {fileID: 2323288314694467937, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -10017,6 +10023,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2056423049}
     m_Modifications:
+    - target: {fileID: 2935976419487198324, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: Dan tubuhku ini di tutupi oleh sisik yang berlendir. Cara aku bergerak
+        adalah berenang menggunakan sirip dan ekor. Bentuk kami macam-macam, tergantung
+        jenis kami, ada yang pipih, lonjong, dan lainnya.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935976419493766309, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: Kedua jawaban tadi adalah benar. Aku dilaut bertahan hidup dengan memakan
+        plankton. Namun beberapa ikan yang lebih besar juga memakan ikan lain yang
+        lebih kecil. Begitulah cara kami bertahan hidup.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935976419632077955, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Ikan...\r\nBanyak yang bisa kamu kenal dari aku. Kamu ingin
+        tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935976419728478274, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: Kedua jawaban tadi adalah benar. Aku dilaut bertahan hidup dengan memakan
+        plankton. Namun beberapa ikan yang lebih besar juga memakan ikan lain yang
+        lebih kecil. Begitulah cara kami bertahan hidup.
+      objectReference: {fileID: 0}
     - target: {fileID: 2935976419809984711, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -10059,6 +10092,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3951261008546058845, guid: 72d614d817bbcc342bc798f414afdff2,
         type: 3}
+    - target: {fileID: 2935976420661148330, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: Beberapa dari kami juga memiliki corak yang unik sesuai jenis kami masing-masing.
+        Beberapa dari jenis kami juga memiliki sirip ikan yang indah sehingga menarik
+        manusia karena berwarna-warni dan berbentuk unik.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935976420684203494, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: Plankton
+      objectReference: {fileID: 0}
     - target: {fileID: 2935976420749289271, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -10154,6 +10199,25 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935976420940872755, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: Aku bisa dengan mudah ditemukan di laut manapun karena aku tersebar luas
+        di lautan. Banyak jenis dari kami yang bisa kamu temui jika kamu menyelam
+        ke laut. Namun beberapa dari teman kami juga ada yang tinggal di air tawar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935976420957142553, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: Aku adalah si Ikan kecil yang suka berenang. Tubuhku ini cenderung lebih
+        kecil daripada hewan-hewan di laut lainnya. Jika aku bernafas, aku bernafas
+        menggunakan insang. Aku adalah hewan bertulang belakang/vertebrata.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935976421022014158, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: Ikan Lain
       objectReference: {fileID: 0}
     - target: {fileID: 2935976421029631811, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
