@@ -7,9 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class MiniGame3Movement : MonoBehaviour
 {
+    
     public Transform vrCamera;
     public float speed = 10.0f;
-    //public Rigidbody rb;
+    private CharacterController cc;
     public Ikan ikan;
     public Animator sharkAnim;
     public AudioSource feedSource;
@@ -33,6 +34,8 @@ public class MiniGame3Movement : MonoBehaviour
     {
         sharkAnim.SetBool("isSwimming", true);
         feedSource.clip = feedSound;
+        cc = GetComponent<CharacterController>();
+        speed *= GlobalVar.GetSpeedMovement();
     }
 
     // Update is called once per frame
@@ -43,7 +46,9 @@ public class MiniGame3Movement : MonoBehaviour
             return;
         }
 
-
+        Vector3 forward = vrCamera.TransformDirection(Vector3.forward);
+        cc.SimpleMove(forward * speed);
+        
         //transform.Translate(Vector3.forward * (speed * Time.deltaTime));
 
         //rb.velocity = Vector3.forward * speed;
@@ -71,7 +76,7 @@ public class MiniGame3Movement : MonoBehaviour
         {
             //rb.AddExplosionForce(3000, other.transform.localPosition, 3000);
             ikan.totBomb.Remove(other.gameObject);
-            GetComponent<Rigidbody>().AddExplosionForce(10, transform.position, 10);
+            //GetComponent<Rigidbody>().AddExplosionForce(10, transform.position, 10);
             feedSource.clip = bombSound;
             feedSource.Play();
             GameObject particle = Instantiate(prefab_explosion,other.transform.position,Quaternion.identity);
