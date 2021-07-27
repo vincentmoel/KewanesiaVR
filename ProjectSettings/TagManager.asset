@@ -7,6 +7,7 @@ TagManager:
   - Cat
   - Ikan
   - Bomb
+  - Dog
   layers:
   - Default
   - TransparentFX

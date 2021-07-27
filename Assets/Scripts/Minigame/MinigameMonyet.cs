@@ -34,7 +34,6 @@ public class MinigameMonyet : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.gameObject.CompareTag("Cat"))
         {
             animalSource.clip = animalSound;
@@ -77,7 +76,6 @@ public class MinigameMonyet : MonoBehaviour
 
     public void ResetMiniGame()
     {
-
         //reset the text canvas
         count = 0;
         textCounter.text = "Cat : " + count.ToString() + "/5";
@@ -91,7 +89,6 @@ public class MinigameMonyet : MonoBehaviour
         bgmSource.Play();
         
         ResetCatPosition();
-
     }
 
     public void ResetCatPosition()
@@ -116,6 +113,4 @@ public class MinigameMonyet : MonoBehaviour
         bgmSource.clip = gameSound;
         bgmSource.Play();
     }
-
-    
 }
