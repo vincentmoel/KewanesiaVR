@@ -8,6 +8,7 @@ public class Loading : MonoBehaviour
 {
     private int loading;
     public TextMeshProUGUI textCounter;
+    
     void Start()
     {
         StartCoroutine(RandomLoading());

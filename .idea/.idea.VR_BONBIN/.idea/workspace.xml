@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraMiniMap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraMiniMap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CanvasLoadingMiniGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CanvasLoadingMiniGame.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ikan.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ikan.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low_poly_styled_rocks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DogMinigame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DogMinigame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalVar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalVar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Loading.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Loading.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +45,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DeleteGameData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Loading.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GlobalVar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DogMinigame.cs" />
     </changedPaths>
   </component>
@@ -131,6 +124,7 @@
       <workItem from="1627302192285" duration="7221000" />
       <workItem from="1627376784917" duration="780000" />
       <workItem from="1627391555881" duration="2904000" />
+      <workItem from="1627486655087" duration="4302000" />
     </task>
     <servers />
   </component>

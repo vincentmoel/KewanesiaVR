@@ -47,4 +47,13 @@ public class GlobalVar
         return PlayerPrefs.GetInt("HighScoreHiu", 0);
     }
 
+    public static float GetTimeDog()
+    {
+        return PlayerPrefs.GetFloat("ScoreTimer", 99999f);
+    }
+    
+    public static void SetTimeDog(float value)
+    {
+        PlayerPrefs.SetFloat("ScoreTimer", value);
+    }
 }
