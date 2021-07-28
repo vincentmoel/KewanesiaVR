@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 public class GameManager : MonoBehaviour
 {
     public static string NamaScene;
@@ -84,5 +83,33 @@ public class GameManager : MonoBehaviour
         SceneManager.UnloadScene("LoadingScene");
     }
 
+
+    private int loading;
+    public TextMeshProUGUI textCounter;
+    void Start()
+    {
+        StartCoroutine(RandomLoading());
+    }
+
+    private IEnumerator RandomLoading()
+    {
+        yield return new WaitForSeconds(Random.Range(0, 3));
+
+        loading += Random.Range(10, 20);
+
+        textCounter.text = loading + "%";
+
+        if (loading >= 100)
+        {
+            textCounter.text = "100 %";
+            StopCoroutine(RandomLoading());
+        }
+        else
+        {
+            StartCoroutine(RandomLoading());
+        }
+
+
+    }
 
 }
