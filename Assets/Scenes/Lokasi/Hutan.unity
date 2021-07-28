@@ -6512,7 +6512,7 @@ MonoBehaviour:
   canvasLoadingMiniGame: {fileID: 1392659913}
   btn_maingames: {fileID: 1339788403}
   referenceKeAnimal: {fileID: 1471686522}
-  refrenceKanvasMiniGame: {fileID: 1103627620}
+  refrenceKanvasMiniGame: {fileID: 1892279436}
   buttonBack: {fileID: 1310843964}
 --- !u!65 &475333083
 BoxCollider:
@@ -11458,7 +11458,7 @@ GameObject:
   - component: {fileID: 1103627622}
   - component: {fileID: 1103627621}
   m_Layer: 5
-  m_Name: CanvasDeskripsiMiniGame
+  m_Name: CanvasDeskripsiMiniGameLAMA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27716,7 +27716,7 @@ PrefabInstance:
     - target: {fileID: 4418985667332154753, guid: 2a3bc9902f7925047a01031b553eea8f,
         type: 3}
       propertyPath: m_Name
-      value: CanvasDeskripsiMiniGame 1
+      value: CanvasDeskripsiMiniGame
       objectReference: {fileID: 0}
     - target: {fileID: 4418985667332154758, guid: 2a3bc9902f7925047a01031b553eea8f,
         type: 3}
