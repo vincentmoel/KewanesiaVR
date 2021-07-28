@@ -10,4 +10,9 @@ public class DeleteGameData : MonoBehaviour
     }
 
 
+    public void RefreshMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+    }
+
 }
