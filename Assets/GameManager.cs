@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public static string NamaScene;
 
+    public static Sprite bgSebelumnya;
+
     public Image imgLoading;
 
     public Image backgroundImg;
@@ -40,12 +42,14 @@ public class GameManager : MonoBehaviour
                 fillImage.sprite = fill_sprites[0];
                 textCounter.color = color1;
                 HideAllBg();
+                bgSebelumnya = bg_sprites[0];
                 //bg_obj[0].SetActive(true);
                 break;
             case "Laut":
                 backgroundImg.sprite = bg_sprites[1];
                 fillImage.sprite = fill_sprites[1];
                 textCounter.color = color1;
+                bgSebelumnya = bg_sprites[1];
                 HideAllBg();
                 //bg_obj[1].SetActive(true);
                 break;
@@ -53,9 +57,22 @@ public class GameManager : MonoBehaviour
                 backgroundImg.sprite = bg_sprites[2];
                 fillImage.sprite = fill_sprites[2];
                 textCounter.color = color2;
+                bgSebelumnya = bg_sprites[2];
                 HideAllBg();
                 //bg_obj[2].SetActive(true);
                 break;
+            case "MainMenu":
+                backgroundImg.sprite = bgSebelumnya;
+
+                if (bgSebelumnya == bg_sprites[2])
+                {
+                    textCounter.color = color2;
+                }
+                else
+                    textCounter.color = color1;
+
+                break;
+
         }
 
         LoadGame();
@@ -112,7 +129,7 @@ public class GameManager : MonoBehaviour
         {
             StartCoroutine(RandomLoading());
         }
-        
+
 
     }
 

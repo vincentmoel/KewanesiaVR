@@ -48,14 +48,14 @@ public class DogMinigame : MonoBehaviour
     public void HighScore()
     {
         highScore.gameObject.SetActive(true);
-        var ts2 = TimeSpan.FromSeconds(GlobalVar.GetTimeDog());
-        
+
         if (totalTime <= GlobalVar.GetTimeDog())
         {
             //simpan highscore
             GlobalVar.SetTimeDog(totalTime);
             
         }
+        var ts2 = TimeSpan.FromSeconds(GlobalVar.GetTimeDog());
         highScore.text = "TIME : " + string.Format("{0:00}:{1:00}", ts.TotalMinutes, ts.Seconds) + "\nHIGHSCORE : " + string.Format("{0:00}:{1:00}", ts2.TotalMinutes, ts2.Seconds);
     }
     

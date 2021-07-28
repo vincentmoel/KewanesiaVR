@@ -8,6 +8,6 @@ public class ChangeSceneInGame : MonoBehaviour
     public void ChangeScene(string sceneName)
     {
         GameManager.NamaScene = sceneName;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("LoadingScene");
     }
 }
