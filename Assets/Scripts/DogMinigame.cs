@@ -9,6 +9,10 @@ public class DogMinigame : MonoBehaviour
 {
     public TextMeshProUGUI timer;
     public TextMeshProUGUI highScore;
+    public AudioSource speaker;
+    public AudioClip finishSound;
+    public AudioClip ingameSound;
+    public AudioClip bgmSound;
     private float totalTime;
     private TimeSpan ts;
     
@@ -22,12 +26,21 @@ public class DogMinigame : MonoBehaviour
             
             HighScore();
             StartCoroutine(loadScene());
+            
+            speaker.Stop();
+            speaker.clip = finishSound;
+            speaker.Play();
+            speaker.loop = false;
         }
     }
 
     public void StartGame()
     {
         timer.gameObject.SetActive(true);
+        
+        speaker.Stop();
+        speaker.clip = ingameSound;
+        speaker.Play();
 
         StartCoroutine(StartTime());
     }
@@ -62,6 +75,12 @@ public class DogMinigame : MonoBehaviour
     IEnumerator loadScene()
     {
         yield return new WaitForSeconds(4f);
+        
+        speaker.Stop();
+        speaker.clip = bgmSound;
+        speaker.Play();
+        speaker.loop = true;
+        
         SceneManager.LoadSceneAsync("LoadingScene");
     }
 }
