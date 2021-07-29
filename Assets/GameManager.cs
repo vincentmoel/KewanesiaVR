@@ -123,14 +123,14 @@ public class GameManager : MonoBehaviour
         if (loading >= 100)
         {
             textCounter.text = "Loading 100 %";
+            HideAllBg();
             SceneManager.LoadScene(NamaScene);
         }
         else
         {
             StartCoroutine(RandomLoading());
         }
-
-
+        
     }
 
 }
