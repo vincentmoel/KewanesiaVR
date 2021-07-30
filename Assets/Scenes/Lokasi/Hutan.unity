@@ -704,17 +704,17 @@ PrefabInstance:
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.x
-      value: -25.4
+      value: -25.39
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.z
-      value: -27.35
+      value: -27.34
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.y
-      value: 5
+      value: 3.31
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -779,7 +779,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.13
+      value: -1.86
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -1251,7 +1251,7 @@ PrefabInstance:
       propertyPath: m_text
       value: Aku suka berjalan dengan keempat kakiku. Aku punya taring yang tajam
         sekali, gigi ku sangat membantuku dalam berburu. Aku juga punya cakar yang
-        panjang nya bisa sampai 10cm loh.
+        panjang nya bisa sampai 10cm.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6db822aef22a784b84bb297d794dde6, type: 3}
@@ -1435,7 +1435,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh77040
+  m_Name: pb_Mesh28506
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2075,7 +2075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4025478222779210, guid: d19dd43872ee43b4896d75d23e9db9e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.40593
+      value: 14.39
       objectReference: {fileID: 0}
     - target: {fileID: 4025478222779210, guid: d19dd43872ee43b4896d75d23e9db9e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2083,7 +2083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4025478222779210, guid: d19dd43872ee43b4896d75d23e9db9e6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28.137108
+      value: 25.23
       objectReference: {fileID: 0}
     - target: {fileID: 4025478222779210, guid: d19dd43872ee43b4896d75d23e9db9e6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2787,8 +2787,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 19.18161, y: 7.4620667, z: 15.950569}
-  m_Center: {x: -24.950191, y: 3.2310333, z: -30.653793}
+  m_Size: {x: 23.859573, y: 7.4620667, z: 23.63624}
+  m_Center: {x: -22.61121, y: 3.2310333, z: -32.558105}
 --- !u!114 &136061125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3574,7 +3574,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh76950
+  m_Name: pb_Mesh28416
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4166,15 +4166,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.019875
+      value: -28.88
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.2545846
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.343674
+      value: 14.92
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6451,13 +6451,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475333080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 643529300}
   - {fileID: 420049198}
   - {fileID: 1738567668}
   - {fileID: 354748187}
+  - {fileID: 1749919603}
   m_Father: {fileID: 1471686523}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6531,8 +6532,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 25.558685, y: 9.654076, z: 22.718014}
-  m_Center: {x: -34.72924, y: 1.8613548, z: 0.7681408}
+  m_Size: {x: 24.286926, y: 9.654076, z: 20.255417}
+  m_Center: {x: -35.36512, y: 1.8613548, z: -2.32584}
 --- !u!1001 &480020421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6752,7 +6753,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh76502
+  m_Name: pb_Mesh27968
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7360,7 +7361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34.1
+      value: -34.12
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7368,7 +7369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.27
+      value: -4.8
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9711,7 +9712,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh76974
+  m_Name: pb_Mesh28440
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10191,15 +10192,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.11625
+      value: -24.13
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.237763
+      value: 1.61
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.64508
+      value: 16.36
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalRotation.x
@@ -10997,8 +10998,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 32.48283, y: 3.1583786, z: 23.19952}
-  m_Center: {x: -33.177498, y: 1.0791893, z: 30.02151}
+  m_Size: {x: 42.53277, y: 3.1583786, z: 32.216434}
+  m_Center: {x: -28.15253, y: 1.0791893, z: 25.513052}
 --- !u!114 &989834675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11806,7 +11807,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh76740
+  m_Name: pb_Mesh28206
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12484,15 +12485,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.795544
+      value: -26.3
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1825402
+      value: 1.54
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.39476
+      value: 21.2
       objectReference: {fileID: 0}
     - target: {fileID: 4722245764040526, guid: 0d9eb53229fd4e4428e17f457310aada, type: 3}
       propertyPath: m_LocalRotation.x
@@ -13137,7 +13138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 7efd45947c60593499aa27f27b2fc943, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -33.3
+      value: -33.37
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 7efd45947c60593499aa27f27b2fc943, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13145,7 +13146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 7efd45947c60593499aa27f27b2fc943, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.14
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 7efd45947c60593499aa27f27b2fc943, type: 3}
       propertyPath: m_LocalRotation.x
@@ -17030,17 +17031,17 @@ PrefabInstance:
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.x
-      value: 17.05124
+      value: 17.06
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.y
-      value: 5
+      value: 3.94
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.z
-      value: 23.75668
+      value: 23.77
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -17055,7 +17056,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.756676
+      value: 23.76
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -17100,12 +17101,12 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 17.051235
+      value: 17.05
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.582237
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -17544,7 +17545,7 @@ PrefabInstance:
     - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
-      value: Yah, jawabanmu salah. Aku adalah hewan herbivora, jadi aku adalah pemakan
+      value: Jawabanmu salah. Aku adalah hewan herbivora, jadi aku adalah pemakan
         tumbuh-tumbuhan. Aku suka makan bambu, ranting, bunga, biji-bijian, rumput,
         dan buah-buahan. Belalaiku membantu aku dengan memasukkan makanan ke mulut.
       objectReference: {fileID: 0}
@@ -18285,7 +18286,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh76632
+  m_Name: pb_Mesh28098
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20214,17 +20215,17 @@ PrefabInstance:
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.x
-      value: 13.07
+      value: 12.04
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.y
-      value: 4.59
+      value: 4.81
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.z
-      value: -1.64
+      value: 0.86
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -20239,7 +20240,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.82
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -20289,7 +20290,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -6.79
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -20687,7 +20688,7 @@ PrefabInstance:
       propertyPath: m_text
       value: Walaupun tubuhku lebih besar dari manusia, aku adalah salah satu hewan
         yang sangat akrab dan dekat dengan manusia. Walaupun aku mirip dengan monyet,
-        tetapi aku tidak mempunyai ekor loh.
+        tetapi aku tidak mempunyai ekor.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732765091417859, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -20841,17 +20842,17 @@ PrefabInstance:
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.x
-      value: -33.67
+      value: -20.22
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.y
-      value: 5
+      value: 4.54
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427981, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: spawnMax.z
-      value: 24.31
+      value: 19.77
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -20866,7 +20867,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.31
+      value: 19.75
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -20911,12 +20912,12 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -33.67
+      value: -20.24
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.99
+      value: -1.61
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -22129,7 +22130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4025478222779210, guid: d19dd43872ee43b4896d75d23e9db9e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.205093
+      value: 23.54
       objectReference: {fileID: 0}
     - target: {fileID: 4025478222779210, guid: d19dd43872ee43b4896d75d23e9db9e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22137,7 +22138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4025478222779210, guid: d19dd43872ee43b4896d75d23e9db9e6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.311333
+      value: 23.15
       objectReference: {fileID: 0}
     - target: {fileID: 4025478222779210, guid: d19dd43872ee43b4896d75d23e9db9e6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -23162,6 +23163,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1523341993}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1749919603 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1901559329}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1762600366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23524,15 +23531,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 9aa610f370cd8454a90934998b7440ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.43
+      value: -33.04
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 9aa610f370cd8454a90934998b7440ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.29
+      value: 2.116
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 9aa610f370cd8454a90934998b7440ed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.25
+      value: -6.95
       objectReference: {fileID: 0}
     - target: {fileID: 4336554176863652, guid: 9aa610f370cd8454a90934998b7440ed, type: 3}
       propertyPath: m_LocalRotation.x
@@ -24241,8 +24248,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 26.47637, y: 7.098276, z: 25.085583}
-  m_Center: {x: 4.306411, y: 3.049138, z: 3.285059}
+  m_Size: {x: 26.47637, y: 7.098276, z: 22.490246}
+  m_Center: {x: 4.306411, y: 3.049138, z: 1.9873905}
 --- !u!114 &1827040328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24366,8 +24373,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 26.864887, y: 6.1750336, z: 32.154877}
-  m_Center: {x: 22.325167, y: 2.5875168, z: 33.93493}
+  m_Size: {x: 26.864887, y: 6.1750336, z: 34.357815}
+  m_Center: {x: 22.325167, y: 2.5875168, z: 32.833458}
 --- !u!114 &1853959305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25143,6 +25150,88 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2092281007}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1901559329
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 475333081}
+    m_Modifications:
+    - target: {fileID: 1904107386653458, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_Name
+      value: Cat Black (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336554176863652, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210507595430992, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2,
+        type: 3}
+      propertyPath: nonAgressiveTowards.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210507595430992, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2,
+        type: 3}
+      propertyPath: nonAgressiveTowards.Array.data[0]
+      value: Giraffe
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210507595430992, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2,
+        type: 3}
+      propertyPath: nonAgressiveTowards.Array.data[1]
+      value: Elephant
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210507595430992, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2,
+        type: 3}
+      propertyPath: nonAgressiveTowards.Array.data[2]
+      value: Gorilla
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210507595430992, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2,
+        type: 3}
+      propertyPath: nonAgressiveTowards.Array.data[3]
+      value: Bear
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ca7c81f5e8d6c64792a13aef1f23bb2, type: 3}
 --- !u!4 &1921722958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 481390, guid: 9991b226736b6964782c28d07cef8881,
@@ -29741,6 +29830,19 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2323288314456828534, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: Salah. Aku tidak suka makan daun - daun an atau rumput. Aku suka makan
+        daging. Aku harus berburu dahulu jika ingin makan. Biasanya aku suka berburu
+        kelinci, dan burung kecil.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288314490936977, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: Benar. Aku suka daging. Aku harus berburu dahulu jika ingin makan. Biasanya
+        aku suka berburu kelinci, dan burung kecil.
+      objectReference: {fileID: 0}
     - target: {fileID: 2323288314715049492, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -29894,7 +29996,7 @@ PrefabInstance:
     - target: {fileID: 2323288315256871369, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.699
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 2323288315256871369, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
@@ -29939,12 +30041,12 @@ PrefabInstance:
     - target: {fileID: 2323288315256871369, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -34.29
+      value: -31.63
       objectReference: {fileID: 0}
     - target: {fileID: 2323288315256871369, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2
+      value: -1.65
       objectReference: {fileID: 0}
     - target: {fileID: 2323288315256871369, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
@@ -29985,6 +30087,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288315256871371, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: spawnMax.x
+      value: -31.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288315256871371, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: spawnMax.y
+      value: 4.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288315256871371, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: spawnMax.z
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 2323288315256871374, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
@@ -30030,6 +30147,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: DoneMakanan
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323288315727508192, guid: d152e6aec7a095b46a95005576b67dac,
+        type: 3}
+      propertyPath: m_text
+      value: 'Kalau aku suka tinggal di hutan liar. Aku suka tinggal disini karena
+        aku bisa berburu banyak hewan di hutan ini. Aku suka berteduh di bawah batu
+        yang besar, jadi kamu bisa menemukanku di dekat situ. '
       objectReference: {fileID: 0}
     - target: {fileID: 2323288315864270934, guid: d152e6aec7a095b46a95005576b67dac,
         type: 3}
