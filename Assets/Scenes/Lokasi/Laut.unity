@@ -11070,14 +11070,14 @@ PrefabInstance:
     - target: {fileID: 2935976419493766309, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
       propertyPath: m_text
-      value: 'Wah, jawaban kamu benar! Aku suka memakan plankton, selain itu aku juga
-        suka memakan organisme kecil, telur ikan, larva, moluska. '
+      value: 'Jawaban kamu benar! Aku suka memakan plankton, selain itu aku juga suka
+        memakan organisme kecil, telur ikan, larva, moluska. '
       objectReference: {fileID: 0}
     - target: {fileID: 2935976419728478274, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
       propertyPath: m_text
-      value: Yah, jawaban kamu salah. Aku suka memakan plankton, selain itu aku juga
-        suka memakan organisme kecil, telur ikan, larva, moluska.
+      value: Jawaban kamu salah. Aku suka memakan plankton, selain itu aku juga suka
+        memakan organisme kecil, telur ikan, larva, moluska.
       objectReference: {fileID: 0}
     - target: {fileID: 2935976419809984711, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
@@ -16466,9 +16466,9 @@ PrefabInstance:
     - target: {fileID: 2935976419493766309, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
       propertyPath: m_text
-      value: Wah, jawaban kamu benar! Aku adalah seekor predator, dengan kata lain,
-        aku adalah hewan karnivora! Aku suka sekali makan ikan, hiu putih, anjing
-        laut, burung laut, cumi-cumi, bahkan paus jenis lainnya!
+      value: Jawaban kamu benar! Aku adalah seekor predator, dengan kata lain, aku
+        adalah hewan karnivora! Aku suka sekali makan ikan, hiu putih, anjing laut,
+        burung laut, cumi-cumi, bahkan paus jenis lainnya!
       objectReference: {fileID: 0}
     - target: {fileID: 2935976419498956219, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
@@ -16508,7 +16508,7 @@ PrefabInstance:
     - target: {fileID: 2935976419728478274, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
       propertyPath: m_text
-      value: 'Yah, jawaban kamu masih salah :( Walau terdapat spesies paus yang memakan
+      value: 'Jawaban kamu masih salah :( Walau terdapat spesies paus yang memakan
         plankton, aku tidak termasuk di dalamnya. Aku adalah hewan karnivora. Makananku
         antara lain: ikan, hiu putih, anjing laut, burung laut, cumi-cumi, kepiting,
         lobster, dan masih banyak lagi.'
