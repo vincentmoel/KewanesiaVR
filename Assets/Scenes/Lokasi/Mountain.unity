@@ -3898,7 +3898,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.20898296
+      value: 0.21951571
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -12854,7 +12854,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.20898291
+      value: 0.23268157
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -13592,7 +13592,7 @@ PrefabInstance:
     - target: {fileID: 3081732764098427983, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.20898294
+      value: 0.2535799
       objectReference: {fileID: 0}
     - target: {fileID: 3081732764178710067, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -16426,7 +16426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1339788406, guid: d152e6aec7a095b46a95005576b67dac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1339788406, guid: d152e6aec7a095b46a95005576b67dac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
