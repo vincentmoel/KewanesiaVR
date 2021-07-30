@@ -14,6 +14,8 @@ public class MiniGame3Movement : MonoBehaviour
     public Ikan ikan;
     public Animator sharkAnim;
     public AudioSource feedSource;
+    public AudioSource bgmsource;
+    public AudioClip bgmsound;
     public AudioClip feedSound;
     public AudioClip bombSound;
     private int score = 0;
@@ -94,6 +96,9 @@ public class MiniGame3Movement : MonoBehaviour
         textCounter.gameObject.SetActive(true);
         textTimer.gameObject.SetActive(true);
         tutor.SetActive(false);
+        
+        bgmsource.clip = bgmsound;
+        bgmsource.Play();
 
         StartCoroutine(Timer());
     }
@@ -104,6 +109,9 @@ public class MiniGame3Movement : MonoBehaviour
         animal.SetActive(true);
         textCounter.gameObject.SetActive(false);
         textTimer.gameObject.SetActive(false);
+        
+        bgmsource.Stop();
+        
         foreach (var b in ikan.totBomb)
         {
             Destroy(b);
