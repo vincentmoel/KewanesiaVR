@@ -4106,7 +4106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &740570938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5318,7 +5318,7 @@ CharacterController:
   m_GameObject: {fileID: 866875449}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Height: 4.23
   m_Radius: 0.83
@@ -11378,6 +11378,12 @@ PrefabInstance:
       value: 'Jawaban kamu benar! Aku suka memakan plankton, selain itu aku juga suka
         memakan organisme kecil, telur ikan, larva, moluska. '
       objectReference: {fileID: 0}
+    - target: {fileID: 2935976419632077955, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Ubur-Ubur...\r\nBanyak yang bisa kamu kenal dari aku. Kamu
+        ingin tahu tentang apa? Katakan saja !"
+      objectReference: {fileID: 0}
     - target: {fileID: 2935976419728478274, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
       propertyPath: m_text
@@ -16789,6 +16795,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935976419632077955, guid: ca3a376e793eee343868cc9b42719b34,
+        type: 3}
+      propertyPath: m_text
+      value: "Halo, namaku Paus Orca...\r\nBanyak yang bisa kamu kenal dari aku. Kamu
+        ingin tahu tentang apa? Katakan saja !"
       objectReference: {fileID: 0}
     - target: {fileID: 2935976419646143221, guid: ca3a376e793eee343868cc9b42719b34,
         type: 3}
