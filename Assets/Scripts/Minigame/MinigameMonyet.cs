@@ -46,7 +46,7 @@ public class MinigameMonyet : MonoBehaviour
 
             if (count == 5)
             {
-                textCounter.text = "Misi selesai !";
+                textCounter.text = "Misi Selesai !";
                 textCounter.fontSize = 100;
                 textCounter.alignment = TextAlignmentOptions.Center;
                 
