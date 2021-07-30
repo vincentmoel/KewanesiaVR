@@ -52,7 +52,7 @@ public class DogMinigame : MonoBehaviour
         totalTime += 1;
 
         ts = TimeSpan.FromSeconds(totalTime);
-        timer.text = string.Format("{0:00}:{1:00}", ts.TotalMinutes, ts.Seconds);
+        timer.text = string.Format("{0:00}:{1:00}", ts.Minutes, ts.Seconds);
 
 
         StartCoroutine(StartTime());
@@ -69,7 +69,7 @@ public class DogMinigame : MonoBehaviour
             
         }
         var ts2 = TimeSpan.FromSeconds(GlobalVar.GetTimeDog());
-        highScore.text = "TIME : " + string.Format("{0:00}:{1:00}", ts.TotalMinutes, ts.Seconds) + "\nHIGHSCORE : " + string.Format("{0:00}:{1:00}", ts2.TotalMinutes, ts2.Seconds);
+        highScore.text = "TIME : " + string.Format("{0:00}:{1:00}", ts.Minutes, ts.Seconds) + "\nHIGHSCORE : " + string.Format("{0:00}:{1:00}", ts2.Minutes, ts2.Seconds);
     }
     
     IEnumerator loadScene()

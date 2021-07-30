@@ -7,7 +7,7 @@ public class ChangeSceneInGame : MonoBehaviour
 {
     public void ChangeScene(string sceneName)
     {
-        GameManager.NamaScene = sceneName;
-        SceneManager.LoadScene("LoadingScene");
+        // GameManager.NamaScene = sceneName;
+        SceneManager.LoadScene(sceneName);
     }
 }
