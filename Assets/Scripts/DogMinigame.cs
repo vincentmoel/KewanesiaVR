@@ -15,6 +15,10 @@ public class DogMinigame : MonoBehaviour
     public AudioClip bgmSound;
     private float totalTime;
     private TimeSpan ts;
+
+
+    public Transform playerParent;
+    public Transform posisiAwal;
     
     private void OnTriggerEnter(Collider other)
     {
@@ -43,6 +47,11 @@ public class DogMinigame : MonoBehaviour
         speaker.Play();
 
         StartCoroutine(StartTime());
+    }
+
+    public void ClickCancel()
+    {
+        gameObject.transform.position= posisiAwal.position;
     }
 
     private IEnumerator StartTime()
