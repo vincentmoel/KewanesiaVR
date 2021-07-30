@@ -15168,9 +15168,9 @@ PrefabInstance:
     - target: {fileID: 3081732764987544063, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
-      value: Oh ya, ditelingaku ini memiliki otot sehingga aku bisa menggerakkan telingaku.
+      value: Ditelingaku ini memiliki otot sehingga aku bisa menggerakkan telingaku.
         Aku dan teman-temanku suka hidup berkelompok. Gigi yang kumiliki ini tidak
-        tajam dan indra penciumanku ini sangat tajam. Oh ya, ditelingaku ini.
+        tajam dan indra penciumanku ini sangat tajam.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732765091417859, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
@@ -15255,9 +15255,9 @@ PrefabInstance:
     - target: {fileID: 3081732766022537200, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
       propertyPath: m_text
-      value: Yap. Benar ! Aku adalah hewan herbivora yaitu pemakan tumbuhan. Aku suka
-        makan buah-buahan, sayuran seperti wortel, sawi, dan lainnya. Selain itu aku
-        juga suka biji-bijian.
+      value: Benar ! Aku adalah hewan herbivora yaitu pemakan tumbuhan. Aku suka makan
+        buah-buahan, sayuran seperti wortel, sawi, dan lainnya. Selain itu aku juga
+        suka biji-bijian.
       objectReference: {fileID: 0}
     - target: {fileID: 3081732766029104929, guid: b6db822aef22a784b84bb297d794dde6,
         type: 3}
