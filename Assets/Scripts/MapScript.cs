@@ -40,18 +40,21 @@ public class MapScript : MonoBehaviour
                     jumActive++;
             }
             indxParent++;
-            //cek status hewan yang active
-            if (jumActive == a.listHewan.Count && indxParent < listMap.Count)//jika jumlah yang active sama dengan jumlah hewan, berarti selesai
-            {
-                //activekan map selanjutnya
-                CheckStatusHewan(jumActive, listProgress);
-                objMap[indxParent].GetComponent<SphereCollider>().enabled = true;
-            }
-            else if(indxParent < listMap.Count)
-            {
-                CheckStatusHewan(jumActive, listProgress);
-                objMap[indxParent].GetComponent<SphereCollider>().enabled = false;
-            }
+
+            CheckStatusHewan(jumActive, listProgress);
+
+            ////cek status hewan yang active
+            //if (jumActive == a.listHewan.Count && indxParent < listMap.Count)//jika jumlah yang active sama dengan jumlah hewan, berarti selesai
+            //{
+            //    //activekan map selanjutnya
+            //    CheckStatusHewan(jumActive, listProgress);
+            //    objMap[indxParent].GetComponent<SphereCollider>().enabled = true;
+            //}
+            //else if(indxParent < listMap.Count)
+            //{
+            //    CheckStatusHewan(jumActive, listProgress);
+            //    objMap[indxParent].GetComponent<SphereCollider>().enabled = false;
+            //}
             listProgress.Clear();
         }
     }
