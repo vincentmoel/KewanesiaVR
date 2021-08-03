@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class PanahLookAt : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+    public GameObject player;
+    public int speed = 5;
     void Update()
     {
-        // transform.localRotation = Quaternion.Euler(90, transform.localRotation.eulerAngles.y + 180, 0);
+        //var targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
 
+        //transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, speed * Time.deltaTime);
+
+        transform.LookAt(player.transform);
+
+        // Same as above, but setting the worldUp parameter to Vector3.left in this example turns the camera on its side
+      //  transform.LookAt(player.transform, Vector3.left);
     }
-    
-    
 }

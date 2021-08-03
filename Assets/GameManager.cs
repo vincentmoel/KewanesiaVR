@@ -63,18 +63,22 @@ public class GameManager : MonoBehaviour
                 break;
             case "MainMenu":
                 backgroundImg.sprite = bgSebelumnya;
-
                 if (bgSebelumnya == bg_sprites[2])
                 {
                     textCounter.color = color2;
                 }
                 else
                     textCounter.color = color1;
-
+                break;
+            case "Tutorial":
+                backgroundImg.sprite = bg_sprites[0];
+                fillImage.sprite = fill_sprites[0];
+                textCounter.color = color1;
+                HideAllBg();
+                bgSebelumnya = bg_sprites[0];
                 break;
 
         }
-
         LoadGame();
     }
 

@@ -58,9 +58,12 @@ public class AnimalColliderToPlayer : MonoBehaviour
 
     private void Awake()
     {
-        if (animal_data.getStatusHewan())
+        if (animal_data != null)
         {
-            TurnOnAllButton();
+            if (animal_data.getStatusHewan())
+            {
+                TurnOnAllButton();
+            }
         }
     }
 
@@ -163,8 +166,11 @@ public class AnimalColliderToPlayer : MonoBehaviour
 
         if (allClear)
         {
-            animal_data.ActivedHewan(1);
-            animal_data.SetStatusHewan(true);
+            if (animal_data != null)
+            {
+                animal_data.ActivedHewan(1);
+                animal_data.SetStatusHewan(true);
+            }
             if (miniGame) // kalau ada minigame
             {
                 btn_maingames.SetActive(true);
@@ -186,7 +192,9 @@ public class AnimalColliderToPlayer : MonoBehaviour
         obj_makananDone.SetActive(true);
         obj_gambarDone.SetActive(true);
 
-        animal_data.SetStatusHewan(true);
+        if (animal_data != null)
+            animal_data.SetStatusHewan(true);
+
         if (miniGame)
             btn_maingames.SetActive(true);
 

@@ -8,6 +8,8 @@ TagManager:
   - Ikan
   - Bomb
   - Dog
+  - Arrow
+  - Tutorial
   layers:
   - Default
   - TransparentFX
