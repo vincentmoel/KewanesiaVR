@@ -39,13 +39,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DeleteGameData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Loading.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GlobalVar.cs" />
       <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangeSceneInGame.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DogMinigame.cs" />
       <option value="$PROJECT_DIR$/Assets/PanahLookAt.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sImG9Wfnx3w19PmpVdvNstIb4T" />
@@ -128,6 +128,8 @@
       <workItem from="1627662960921" duration="319000" />
       <workItem from="1627969277651" duration="3000" />
       <workItem from="1627970099720" duration="2102000" />
+      <workItem from="1628050059526" duration="787000" />
+      <workItem from="1628095317828" duration="622000" />
     </task>
     <servers />
   </component>

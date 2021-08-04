@@ -42,13 +42,13 @@ public class MinigameMonyet : MonoBehaviour
             other.gameObject.SetActive(false);
             
             count++;
-            textCounter.text = "Cat : " + count.ToString() + "/5";
+            textCounter.text = "Kucing : " + count.ToString() + "/5";
 
             if (count == 5)
             {
                 textCounter.text = "Misi Selesai !";
-                textCounter.fontSize = 100;
-                textCounter.alignment = TextAlignmentOptions.Center;
+                textCounter.fontSize = 50;
+                textCounter.alignment = TextAlignmentOptions.TopGeoAligned;
                 
                 bgmSource.Stop();
                 bgmSource.clip = finishSound;
@@ -78,8 +78,8 @@ public class MinigameMonyet : MonoBehaviour
     {
         //reset the text canvas
         count = 0;
-        textCounter.text = "Cat : " + count.ToString() + "/5";
-        textCounter.alignment = TextAlignmentOptions.TopLeft;
+        textCounter.text = "Kucing : " + count.ToString() + "/5";
+        textCounter.alignment = TextAlignmentOptions.TopGeoAligned;
         textCounter.fontSize = 32;
 
         GetComponent<Movement>().enabled = true;
