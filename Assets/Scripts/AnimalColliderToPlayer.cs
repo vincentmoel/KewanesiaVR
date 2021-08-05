@@ -203,7 +203,7 @@ public class AnimalColliderToPlayer : MonoBehaviour
     public void MoveToMiniGame()
     {
         //pindahkan player ke start posisi minigame
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().enabled = false;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>().speed = 0;
         canvasLoadingMiniGame.SetActive(true);
         //referenceKeAnimal.SetActive(false);
         refrenceKanvasMiniGame.SetActive(true);

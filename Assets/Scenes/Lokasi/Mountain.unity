@@ -5041,7 +5041,7 @@ PrefabInstance:
     - target: {fileID: 4418985667930677585, guid: 2a3bc9902f7925047a01031b553eea8f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: set_enabled
+      value: NormalMovement
       objectReference: {fileID: 0}
     - target: {fileID: 4418985667930677585, guid: 2a3bc9902f7925047a01031b553eea8f,
         type: 3}
@@ -5092,6 +5092,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418985667930677585, guid: 2a3bc9902f7925047a01031b553eea8f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4418985667930677599, guid: 2a3bc9902f7925047a01031b553eea8f,
         type: 3}

@@ -32,6 +32,9 @@ public class MiniGame3Movement : MonoBehaviour
 
     public GameObject prefab_explosion;
 
+    private float xRotation;
+    private float mouseSensitive = 100;
+
     void Start()
     {
         sharkAnim.SetBool("isSwimming", true);
@@ -47,7 +50,15 @@ public class MiniGame3Movement : MonoBehaviour
         {
             return;
         }
+        
+        float mouseX = Input.GetAxis("Mouse X") * Time.deltaTime * mouseSensitive;
+        float mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSensitive;
 
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        vrCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        transform.Rotate(Vector3.up * mouseX);
+        
         Vector3 forward = vrCamera.TransformDirection(Vector3.forward);
         cc.SimpleMove(forward * speed);
         

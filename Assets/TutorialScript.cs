@@ -28,7 +28,7 @@ public class TutorialScript : MonoBehaviour
 
     private void Start()
     {
-        playerScript.enabled = false;
+        playerScript.speed = 0;
         STATE_1();
     }
 
@@ -38,6 +38,7 @@ public class TutorialScript : MonoBehaviour
         StartCoroutine(ie_teks_awal());
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     /// <summary>
     /// fungsi animasi teks berjalan pada teks awal
     /// </summary>
@@ -64,7 +65,7 @@ public class TutorialScript : MonoBehaviour
             yield return new WaitForSeconds(4f);
             obj_teks_awal.GetComponent<FadeOutTutor>().isDone = true;
             indx_teks = 0;
-            playerScript.enabled = true;
+            playerScript.speed = 5;
         }
     }
 
@@ -72,7 +73,7 @@ public class TutorialScript : MonoBehaviour
     {
         if (other.CompareTag("Tutorial"))
         {
-            playerScript.enabled = false;
+            playerScript.speed = 0;
             obj_panah.SetActive(false);
             STATE_2_1();
         }

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="" />
+    <list default="true" id="69267c5b-c50a-4a2b-85ff-1d736ec94c89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_BONBIN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low_poly_styled_rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Hutan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Laut.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lokasi/Mountain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimalColliderToPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimalColliderToPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +29,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.terrain-tools@2.0.2-preview/Editor/TerrainTools/PaintTextureTool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.terrain-tools@2.0.2-preview/Editor/TerrainTools/PaintTextureTool.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -31,13 +41,10 @@
       <option value="$PROJECT_DIR$/Assets/AnimalRunningScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DataHewanScript.cs" />
       <option value="$PROJECT_DIR$/Assets/MiniGame3Movement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AnimalColliderToPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PapanRotation.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/Ikan.cs" />
       <option value="$PROJECT_DIR$/Assets/Ikan.cs" />
       <option value="$PROJECT_DIR$/Assets/Shark.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DeleteGameData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Loading.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GlobalVar.cs" />
@@ -46,6 +53,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DogMinigame.cs" />
       <option value="$PROJECT_DIR$/Assets/PanahLookAt.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame3Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AnimalColliderToPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Movement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sImG9Wfnx3w19PmpVdvNstIb4T" />
@@ -130,6 +140,7 @@
       <workItem from="1627970099720" duration="2102000" />
       <workItem from="1628050059526" duration="787000" />
       <workItem from="1628095317828" duration="1350000" />
+      <workItem from="1628182457949" duration="1467000" />
     </task>
     <servers />
   </component>
