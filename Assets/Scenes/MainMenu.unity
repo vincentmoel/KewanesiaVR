@@ -215,7 +215,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2046
+  m_Name: pb_Mesh-31354
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -838,7 +838,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13542
+  m_Name: pb_Mesh-42850
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23959,8 +23959,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Laut
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24662e5d6dfc502408893f6bc8ae62e7, type: 2}
+  m_sharedMaterial: {fileID: 3360395781201753391, guid: 24662e5d6dfc502408893f6bc8ae62e7,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29564,8 +29565,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Gunung
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24662e5d6dfc502408893f6bc8ae62e7, type: 2}
+  m_sharedMaterial: {fileID: 3360395781201753391, guid: 24662e5d6dfc502408893f6bc8ae62e7,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32655,7 +32657,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13540
+  m_Name: pb_Mesh-42848
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33064,8 +33066,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hutan
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24662e5d6dfc502408893f6bc8ae62e7, type: 2}
+  m_sharedMaterial: {fileID: 3360395781201753391, guid: 24662e5d6dfc502408893f6bc8ae62e7,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -12,10 +12,13 @@ public class PapanRotation : MonoBehaviour
     public float maxY;
     public bool spawn = false;
 
+    
     public Vector3 spawnMax; // nongol ke atas
     public Vector3 spawnMin; // kembali ke dasar
 
     public float speed = 10f;
+
+    public AnimalColliderToPlayer animalCollider;
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>();
@@ -25,7 +28,15 @@ public class PapanRotation : MonoBehaviour
 
     void Update()
     {
-        spawn = GetComponentInParent<AnimalColliderToPlayer>().isPlayerNear;
+        if (GetComponentInParent<AnimalColliderToPlayer>())
+        {
+            spawn = GetComponentInParent<AnimalColliderToPlayer>().isPlayerNear;
+        }
+
+        if (animalCollider != null)
+        {
+            spawn = animalCollider.isPlayerNear;
+        }
         PapanAnimate();
     }
 
@@ -54,15 +65,28 @@ public class PapanRotation : MonoBehaviour
 
     void PapanAnimate()
     {
-
-
-        if (spawn && !GetComponentInParent<AnimalColliderToPlayer>().closePapan) // kalau player masuk ke area hewan. lakukan animasi muncul ke atas
+        if (GetComponentInParent<AnimalColliderToPlayer>())
         {
-            transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMax, Time.deltaTime * speed);
+
+            if (spawn && !GetComponentInParent<AnimalColliderToPlayer>().closePapan) // kalau player masuk ke area hewan. lakukan animasi muncul ke atas
+            {
+                transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMax, Time.deltaTime * speed);
+            }
+            else
+            {
+                transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMin, Time.deltaTime * speed);
+            }
         }
-        else
+        else if (animalCollider != null)
         {
-            transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMin, Time.deltaTime * speed);
+            if (spawn && !animalCollider.closePapan) // kalau player masuk ke area hewan. lakukan animasi muncul ke atas
+            {
+                transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMax, Time.deltaTime * speed);
+            }
+            else
+            {
+                transform.localPosition = Vector3.MoveTowards(transform.localPosition, spawnMin, Time.deltaTime * speed);
+            }
         }
     }
 

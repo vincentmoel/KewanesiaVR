@@ -32,7 +32,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DataHewanScript.cs" />
       <option value="$PROJECT_DIR$/Assets/MiniGame3Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AnimalColliderToPlayer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PapanRotation.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/Ikan.cs" />
       <option value="$PROJECT_DIR$/Assets/Ikan.cs" />
       <option value="$PROJECT_DIR$/Assets/Shark.cs" />
@@ -46,6 +45,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DogMinigame.cs" />
       <option value="$PROJECT_DIR$/Assets/PanahLookAt.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Minigame/MinigameMonyet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PapanRotation.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sImG9Wfnx3w19PmpVdvNstIb4T" />
@@ -130,6 +130,8 @@
       <workItem from="1627970099720" duration="2102000" />
       <workItem from="1628050059526" duration="787000" />
       <workItem from="1628095317828" duration="1350000" />
+      <workItem from="1628183993923" duration="598000" />
+      <workItem from="1628220318628" duration="2124000" />
     </task>
     <servers />
   </component>
