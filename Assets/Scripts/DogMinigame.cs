@@ -52,6 +52,7 @@ public class DogMinigame : MonoBehaviour
     public void ClickCancel()
     {
         gameObject.transform.position= posisiAwal.position;
+        SceneManager.LoadScene("LoadingScene");
     }
 
     private IEnumerator StartTime()

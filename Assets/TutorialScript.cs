@@ -28,6 +28,8 @@ public class TutorialScript : MonoBehaviour
 
     private void Start()
     {
+        btn_ya_mau.GetComponent<BoxCollider>().enabled = false;
+
         playerScript.speed = 0;
         STATE_1();
     }
@@ -84,7 +86,6 @@ public class TutorialScript : MonoBehaviour
     /// </summary>
     void STATE_2_1()
     {
-
         StartCoroutine(ie_teks_dua_state1());
     }
 
@@ -117,7 +118,9 @@ public class TutorialScript : MonoBehaviour
             yield break;
         }
 
-        btn_ya_mau.interactable = true;
+        btn_ya_mau.GetComponent<BoxCollider>().enabled = true;
+        
+        // btn_ya_mau.interactable = false;
     }
 
     public void STATE_2_2()

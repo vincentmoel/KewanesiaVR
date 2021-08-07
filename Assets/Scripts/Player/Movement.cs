@@ -51,6 +51,13 @@ public class Movement : MonoBehaviour
 
     float xRotation = 0f;
 
+    public float gravitiy = -9.18f;
+    public Transform groundCheck;
+    public float groundDistance = 0.4f;
+    public LayerMask groundMask;
+
+    Vector3 velocity;
+    bool isGrounded;
     void Start() {
         cc = GetComponent<CharacterController>();
         speed *= GlobalVar.GetSpeedMovement();
@@ -60,6 +67,12 @@ public class Movement : MonoBehaviour
 
     void Update() {
 
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        if(isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+        }
 
         float mouseX = Input.GetAxis("Mouse X") * Time.deltaTime * mouseSensitive;
         float mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSensitive;
@@ -73,8 +86,12 @@ public class Movement : MonoBehaviour
         float z = Input.GetAxisRaw("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
+
         cc.Move(move * (speed * Time.deltaTime));
-        
+
+        velocity.y += gravitiy * Time.deltaTime;
+        cc.Move(velocity * Time.deltaTime);
+
     }
 
     public void NormalMovement()

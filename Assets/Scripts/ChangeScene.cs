@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     public Animator animPintu, animPlayer;
-    public GvrEditorEmulator GvrEditorEmulator;
     public Transform playerTargetToLook;
 
     public bool startAnim = false;
@@ -16,7 +15,6 @@ public class ChangeScene : MonoBehaviour
         animPintu.Play("Anim Pintu Buka");
         animPlayer.Play("Anim Masuk Player In");
         GetComponent<Animator>().Play("RMapAnim");
-        GvrEditorEmulator.enabled = false;
         startAnim = true;
         yield return new WaitForSeconds(3.5f);
 

@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 4418985666884883994}
   - component: {fileID: 4418985666884883993}
   - component: {fileID: 4418985666884883992}
+  - component: {fileID: 6971466219394948340}
   m_Layer: 5
   m_Name: btnMulai
   m_TagString: Untagged
@@ -288,6 +289,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!65 &6971466219394948340
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418985666884884006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 411.4, y: 122, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4418985667016892211
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,7 +392,7 @@ GameObject:
   - component: {fileID: 4418985667332154756}
   - component: {fileID: 4418985667332154754}
   m_Layer: 5
-  m_Name: CanvasDeskripsiMiniGame 1
+  m_Name: CanvasGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +419,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 47.212, y: 0.92}
+  m_AnchoredPosition: {x: 47.212006, y: 0.9200134}
   m_SizeDelta: {x: 1999.908, y: 1081.926}
   m_Pivot: {x: 0, y: 0}
 --- !u!223 &4418985667332154757
@@ -561,6 +575,7 @@ GameObject:
   - component: {fileID: 4418985667849222142}
   - component: {fileID: 4418985667849222141}
   - component: {fileID: 4418985667849222140}
+  - component: {fileID: 5858319602918166949}
   m_Layer: 5
   m_Name: btnMulaiFirstTime
   m_TagString: Untagged
@@ -678,7 +693,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 4418985667849222142}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -759,6 +774,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!65 &5858319602918166949
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418985667849222138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 411.4, y: 122, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4418985667930677599
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +800,7 @@ GameObject:
   - component: {fileID: 4418985667930677587}
   - component: {fileID: 4418985667930677586}
   - component: {fileID: 4418985667930677585}
+  - component: {fileID: 2704371501383864272}
   m_Layer: 5
   m_Name: btnCancel
   m_TagString: Untagged
@@ -915,6 +944,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!65 &2704371501383864272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418985667930677599}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 411.4, y: 122, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4418985667980557282
 GameObject:
   m_ObjectHideFlags: 0

@@ -539,6 +539,7 @@ GameObject:
   - component: {fileID: 3081732764143027433}
   - component: {fileID: 3081732764143027434}
   - component: {fileID: 3081732764143027435}
+  - component: {fileID: 5278442585330188787}
   m_Layer: 5
   m_Name: btnBack
   m_TagString: Untagged
@@ -697,6 +698,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &5278442585330188787
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764143027445}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764178710078
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,6 +724,7 @@ GameObject:
   - component: {fileID: 3081732764178710066}
   - component: {fileID: 3081732764178710067}
   - component: {fileID: 3081732764178710076}
+  - component: {fileID: 3560362194034695165}
   m_Layer: 5
   m_Name: btnTidak
   m_TagString: Untagged
@@ -857,6 +872,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &3560362194034695165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764178710078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764191181911
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,6 +980,7 @@ GameObject:
   - component: {fileID: 3081732764216657075}
   - component: {fileID: 3081732764216657084}
   - component: {fileID: 3081732764216657085}
+  - component: {fileID: 6376568629371409251}
   m_Layer: 5
   m_Name: btnCiri
   m_TagString: Untagged
@@ -1110,6 +1139,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6376568629371409251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764216657087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764216660702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,6 +1165,7 @@ GameObject:
   - component: {fileID: 3081732764216660690}
   - component: {fileID: 3081732764216660691}
   - component: {fileID: 3081732764216660700}
+  - component: {fileID: 535838245703635993}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -1292,6 +1335,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &535838245703635993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764216660702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764260058701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1517,7 @@ GameObject:
   - component: {fileID: 3081732764299080253}
   - component: {fileID: 3081732764299080254}
   - component: {fileID: 3081732764299080255}
+  - component: {fileID: 7100484092840871667}
   m_Layer: 5
   m_Name: btnBack
   m_TagString: Untagged
@@ -1619,6 +1676,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &7100484092840871667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764299080249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764354015501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,6 +1702,7 @@ GameObject:
   - component: {fileID: 3081732764354015489}
   - component: {fileID: 3081732764354015490}
   - component: {fileID: 3081732764354015491}
+  - component: {fileID: 8536816469570481531}
   m_Layer: 5
   m_Name: btnBack
   m_TagString: Untagged
@@ -1790,6 +1861,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &8536816469570481531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764354015501}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764420502247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,6 +2043,7 @@ GameObject:
   - component: {fileID: 3081732764439947139}
   - component: {fileID: 3081732764439947148}
   - component: {fileID: 3081732764439947149}
+  - component: {fileID: 8591724313223042256}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -2117,6 +2202,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &8591724313223042256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764439947151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764494295397
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,6 +2384,7 @@ GameObject:
   - component: {fileID: 3081732764515450408}
   - component: {fileID: 3081732764515450409}
   - component: {fileID: 3081732764515450410}
+  - component: {fileID: 6851233376052095966}
   m_Layer: 5
   m_Name: btnBack
   m_TagString: Untagged
@@ -2444,6 +2543,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6851233376052095966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764515450420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764517083174
 GameObject:
   m_ObjectHideFlags: 0
@@ -2771,6 +2883,7 @@ GameObject:
   - component: {fileID: 3081732764564762071}
   - component: {fileID: 3081732764564762064}
   - component: {fileID: 3081732764564762065}
+  - component: {fileID: 3199672703984160004}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -2929,6 +3042,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &3199672703984160004
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764564762067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764612737753
 GameObject:
   m_ObjectHideFlags: 0
@@ -3054,6 +3180,7 @@ GameObject:
   - component: {fileID: 3081732764662767423}
   - component: {fileID: 3081732764662767416}
   - component: {fileID: 3081732764662767417}
+  - component: {fileID: 3814503248987188411}
   m_Layer: 5
   m_Name: btnYa
   m_TagString: Untagged
@@ -3223,6 +3350,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &3814503248987188411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764662767419}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764680278340
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,6 +3690,7 @@ GameObject:
   - component: {fileID: 3081732764710001710}
   - component: {fileID: 3081732764710001711}
   - component: {fileID: 3081732764710001704}
+  - component: {fileID: 5893227829260335174}
   m_Layer: 5
   m_Name: btnGambar
   m_TagString: Untagged
@@ -3708,6 +3849,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &5893227829260335174
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764710001706}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764713293326
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,6 +3875,7 @@ GameObject:
   - component: {fileID: 3081732764713293314}
   - component: {fileID: 3081732764713293315}
   - component: {fileID: 3081732764713293324}
+  - component: {fileID: 6037567782426690705}
   m_Layer: 5
   m_Name: btnOption1
   m_TagString: Untagged
@@ -3879,6 +4034,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6037567782426690705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764713293326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764724148142
 GameObject:
   m_ObjectHideFlags: 0
@@ -4048,6 +4216,7 @@ GameObject:
   - component: {fileID: 3081732764756790369}
   - component: {fileID: 3081732764756790370}
   - component: {fileID: 3081732764756790371}
+  - component: {fileID: 6752263660359798125}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -4217,6 +4386,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6752263660359798125
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764756790381}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764772251710
 GameObject:
   m_ObjectHideFlags: 0
@@ -4920,6 +5102,7 @@ GameObject:
   - component: {fileID: 3081732764912159396}
   - component: {fileID: 3081732764912159397}
   - component: {fileID: 3081732764912159398}
+  - component: {fileID: 973729460368950646}
   m_Layer: 5
   m_Name: btnTempatTinggal
   m_TagString: Untagged
@@ -5078,6 +5261,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &973729460368950646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764912159392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764952059970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5091,6 +5287,7 @@ GameObject:
   - component: {fileID: 3081732764952059974}
   - component: {fileID: 3081732764952059975}
   - component: {fileID: 3081732764952059968}
+  - component: {fileID: 6792260473363150703}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -5249,6 +5446,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6792260473363150703
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732764952059970}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732764961666165
 GameObject:
   m_ObjectHideFlags: 0
@@ -5647,6 +5857,7 @@ GameObject:
   - component: {fileID: 3081732765080264912}
   - component: {fileID: 3081732765080264913}
   - component: {fileID: 3081732765080264914}
+  - component: {fileID: 2427378137761522513}
   m_Layer: 5
   m_Name: btnBack
   m_TagString: Untagged
@@ -5805,6 +6016,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &2427378137761522513
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765080264924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765091417869
 GameObject:
   m_ObjectHideFlags: 0
@@ -6278,6 +6502,7 @@ GameObject:
   - component: {fileID: 3081732765132842162}
   - component: {fileID: 3081732765132842163}
   - component: {fileID: 3081732765132842172}
+  - component: {fileID: 4093170948019072470}
   m_Layer: 5
   m_Name: btnBack
   m_TagString: Untagged
@@ -6436,6 +6661,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &4093170948019072470
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765132842174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765170010045
 GameObject:
   m_ObjectHideFlags: 0
@@ -6833,6 +7071,7 @@ GameObject:
   - component: {fileID: 3081732765237810954}
   - component: {fileID: 3081732765237810955}
   - component: {fileID: 3081732765237810964}
+  - component: {fileID: 8812502238673804698}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -6991,6 +7230,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &8812502238673804698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765237810966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765245135237
 GameObject:
   m_ObjectHideFlags: 0
@@ -7628,6 +7880,7 @@ GameObject:
   - component: {fileID: 3081732765291201912}
   - component: {fileID: 3081732765291201913}
   - component: {fileID: 3081732765291201914}
+  - component: {fileID: 4505669731887794794}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -7786,6 +8039,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &4505669731887794794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765291201860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765295855199
 GameObject:
   m_ObjectHideFlags: 0
@@ -8572,6 +8838,7 @@ GameObject:
   - component: {fileID: 3081732765497222724}
   - component: {fileID: 3081732765497222725}
   - component: {fileID: 3081732765497222726}
+  - component: {fileID: 7887721591552959137}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -8730,6 +8997,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &7887721591552959137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765497222720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765503795769
 GameObject:
   m_ObjectHideFlags: 0
@@ -8899,6 +9179,7 @@ GameObject:
   - component: {fileID: 3081732765541878879}
   - component: {fileID: 3081732765541878872}
   - component: {fileID: 3081732765541878873}
+  - component: {fileID: 6826275355837931059}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -9057,6 +9338,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6826275355837931059
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765541878875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765545161224
 GameObject:
   m_ObjectHideFlags: 0
@@ -9420,6 +9714,7 @@ GameObject:
   - component: {fileID: 3081732765698190225}
   - component: {fileID: 3081732765698190226}
   - component: {fileID: 3081732765698190227}
+  - component: {fileID: 6747195419190173565}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -9578,6 +9873,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6747195419190173565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765698190237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765718766816
 GameObject:
   m_ObjectHideFlags: 0
@@ -9956,6 +10264,7 @@ GameObject:
   - component: {fileID: 3081732765851792120}
   - component: {fileID: 3081732765851792121}
   - component: {fileID: 3081732765851792122}
+  - component: {fileID: 1545553470256823686}
   m_Layer: 5
   m_Name: btnBack
   m_TagString: Untagged
@@ -10114,6 +10423,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1545553470256823686
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765851792068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765868331425
 GameObject:
   m_ObjectHideFlags: 0
@@ -10127,6 +10449,7 @@ GameObject:
   - component: {fileID: 3081732765868331429}
   - component: {fileID: 3081732765868331430}
   - component: {fileID: 3081732765868331431}
+  - component: {fileID: 9141060321073537915}
   m_Layer: 5
   m_Name: btnBack
   m_TagString: Untagged
@@ -10285,6 +10608,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &9141060321073537915
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732765868331425}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732765876107216
 GameObject:
   m_ObjectHideFlags: 0
@@ -11271,6 +11607,7 @@ GameObject:
   - component: {fileID: 3081732766067732309}
   - component: {fileID: 3081732766067732310}
   - component: {fileID: 3081732766067732311}
+  - component: {fileID: 5335808396033269106}
   m_Layer: 5
   m_Name: btnOption2
   m_TagString: Untagged
@@ -11429,6 +11766,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &5335808396033269106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732766067732305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732766087902788
 GameObject:
   m_ObjectHideFlags: 0
@@ -11442,6 +11792,7 @@ GameObject:
   - component: {fileID: 3081732766087902840}
   - component: {fileID: 3081732766087902841}
   - component: {fileID: 3081732766087902842}
+  - component: {fileID: 2932493204346593142}
   m_Layer: 5
   m_Name: btnMakanan
   m_TagString: Untagged
@@ -11600,6 +11951,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &2932493204346593142
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081732766087902788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 160, y: 30, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3081732766090208250
 GameObject:
   m_ObjectHideFlags: 0

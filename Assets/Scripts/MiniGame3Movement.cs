@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class MiniGame3Movement : MonoBehaviour
 {
-    
+
     public Transform vrCamera;
     public float speed = 10.0f;
     private CharacterController cc;
@@ -33,44 +33,52 @@ public class MiniGame3Movement : MonoBehaviour
     public GameObject prefab_explosion;
 
     private float xRotation;
+    private float yRotation;
     private float mouseSensitive = 100;
 
+    public Rigidbody rb;
     void Start()
     {
         sharkAnim.SetBool("isSwimming", true);
         feedSource.clip = feedSound;
         cc = GetComponent<CharacterController>();
         speed *= GlobalVar.GetSpeedMovement();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!ikan.state)
-        {
-            return;
-        }
-        
+
+
         float mouseX = Input.GetAxis("Mouse X") * Time.deltaTime * mouseSensitive;
         float mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * mouseSensitive;
 
         xRotation -= mouseY;
+        yRotation += mouseX;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-        vrCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        transform.Rotate(Vector3.up * mouseX);
-        
-        Vector3 forward = vrCamera.TransformDirection(Vector3.forward);
-        cc.SimpleMove(forward * speed);
-        
-        //transform.Translate(Vector3.forward * (speed * Time.deltaTime));
 
-        //rb.velocity = Vector3.forward * speed;
+        Debug.Log(mouseX);
+        vrCamera.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
+        //transform.Rotate(Vector3.up * mouseX);
+
+        if (!ikan.state)
+        {
+            return;
+        }
+
+        //Vector3 forward = vrCamera.TransformDirection(Vector3.forward);
+        //cc.SimpleMove(forward * speed);
+
+         transform.Translate(Vector3.forward * (speed * Time.deltaTime));
+
+        //rb.velocity = (transform.forward * xRotation) * speed * Time.fixedDeltaTime;
     }
 
     private void LateUpdate()
     {
-        //transform.localRotation = vrCamera.localRotation;
-        //vrCamera.localRotation = Quaternion.Euler(0, 0, 0);
+        transform.localRotation = vrCamera.localRotation;
+        vrCamera.localRotation = Quaternion.Euler(0, 0, 0);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -87,15 +95,16 @@ public class MiniGame3Movement : MonoBehaviour
 
         if (other.CompareTag("Bomb"))
         {
-            //rb.AddExplosionForce(3000, other.transform.localPosition, 3000);
+            rb.AddExplosionForce(3000, other.transform.localPosition, 3000);
             ikan.totBomb.Remove(other.gameObject);
-            //GetComponent<Rigidbody>().AddExplosionForce(10, transform.position, 10);
+            GetComponent<Rigidbody>().AddExplosionForce(1000, transform.position, 1000);
             feedSource.clip = bombSound;
             feedSource.Play();
-            GameObject particle = Instantiate(prefab_explosion,other.transform.position,Quaternion.identity);
+            GameObject particle = Instantiate(prefab_explosion, other.transform.position, Quaternion.identity);
             Destroy(other.gameObject);
             Destroy(particle, 5f);
-            score -= 100;
+            if(score > 0)
+                score -= 100;
             textCounter.text = "Score : " + score.ToString();
         }
     }
@@ -107,7 +116,7 @@ public class MiniGame3Movement : MonoBehaviour
         textCounter.gameObject.SetActive(true);
         textTimer.gameObject.SetActive(true);
         tutor.SetActive(false);
-        
+
         bgmsource.clip = bgmsound;
         bgmsource.Play();
 
@@ -120,9 +129,9 @@ public class MiniGame3Movement : MonoBehaviour
         animal.SetActive(true);
         textCounter.gameObject.SetActive(false);
         textTimer.gameObject.SetActive(false);
-        
+
         bgmsource.Stop();
-        
+
         foreach (var b in ikan.totBomb)
         {
             Destroy(b);

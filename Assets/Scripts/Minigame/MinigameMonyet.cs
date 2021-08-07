@@ -83,6 +83,8 @@ public class MinigameMonyet : MonoBehaviour
         textCounter.fontSize = 32;
 
         GetComponent<Movement>().enabled = true;
+        GetComponent<Movement>().speed = 5;
+        
 
         bgmSource.Stop();
         bgmSource.clip = gameSound;

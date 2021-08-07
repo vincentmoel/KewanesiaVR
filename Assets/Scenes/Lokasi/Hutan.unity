@@ -3621,10 +3621,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 233651442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68356c3764ad390429ddad9e48ce8c31, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ffade7edb5b1df45a6c3642149606c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &233651445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4146,6 +4145,12 @@ MonoBehaviour:
   speed: 5
   toggleAngle: 20
   move: 0
+  gravitiy: -9.18
+  groundCheck: {fileID: 1123788332}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!82 &274860637
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8031,7 +8036,7 @@ GameObject:
   - component: {fileID: 776206153}
   - component: {fileID: 776206155}
   - component: {fileID: 776206154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-159.2, 0.0, -10.1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8601,7 +8606,7 @@ GameObject:
   - component: {fileID: 850239848}
   - component: {fileID: 850239850}
   - component: {fileID: 850239849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-59.2, 0.0, 89.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10478,8 +10483,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 42.53277, y: 3.1583786, z: 32.216434}
-  m_Center: {x: -28.15253, y: 1.0791893, z: 25.513052}
+  m_Size: {x: 42.53277, y: 11.767271, z: 32.216434}
+  m_Center: {x: -28.15253, y: 5.3836355, z: 25.513052}
 --- !u!114 &989834675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10779,7 +10784,7 @@ GameObject:
   - component: {fileID: 1083112062}
   - component: {fileID: 1083112064}
   - component: {fileID: 1083112063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-159.2, 0.0, 89.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11191,6 +11196,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123541782}
   m_CullTransparentMesh: 0
+--- !u!1 &1123788331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123788332}
+  m_Layer: 0
+  m_Name: GroundChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123788332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123788331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6654914302416121552}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1130528606
 Mesh:
   m_ObjectHideFlags: 0
@@ -15302,7 +15337,7 @@ GameObject:
   - component: {fileID: 1265676743}
   - component: {fileID: 1265676745}
   - component: {fileID: 1265676744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-159.2, 0.0, -110.1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18102,7 +18137,7 @@ GameObject:
   - component: {fileID: 1465308736}
   - component: {fileID: 1465308738}
   - component: {fileID: 1465308737}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(40.8, 0.0, 89.9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19932,7 +19967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1633006277}
   - component: {fileID: 1633006276}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22813,7 +22848,7 @@ GameObject:
   - component: {fileID: 1884632807}
   - component: {fileID: 1884632809}
   - component: {fileID: 1884632808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(40.8, 0.0, -110.1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22888,7 +22923,7 @@ GameObject:
   - component: {fileID: 1885385674}
   - component: {fileID: 1885385676}
   - component: {fileID: 1885385675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24607,7 +24642,7 @@ GameObject:
   - component: {fileID: 2045817988}
   - component: {fileID: 2045817990}
   - component: {fileID: 2045817989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-59.2, 0.0, -110.1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26070,7 +26105,7 @@ GameObject:
   - component: {fileID: 2132663147}
   - component: {fileID: 2132663149}
   - component: {fileID: 2132663148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(40.8, 0.0, -10.1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26827,6 +26862,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7809689272844884664}
+  - {fileID: 1123788332}
   m_Father: {fileID: 1294007902}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
